@@ -1,0 +1,34 @@
+blockquote {
+  position: relative;
+  font-weight: 700;
+  color: #e91e63;
+  padding: 30px 0;
+  width: 100%;
+  max-width: 500px;
+  z-index: 1;
+  margin: 50px auto;
+  align-self: center;
+  text-align: center;
+  border-radius: 4px;
+  transition: all 1s;
+}
+blockquote:after {
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  content: "\f10d";
+  color: rgb(233, 30, 99);
+  font-size: 2rem;
+  line-height: 0;
+  top: -10px;
+  left: 00px;
+}
+blockquote:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  content: "\f10e";
+  color: #e91e63;
+  font-size: 2rem;
+  line-height: 0;
+  bottom: -10px;
+  right: 0px;
+}
