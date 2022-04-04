@@ -32,3 +32,6 @@ blockquote:before {
   bottom: -10px;
   right: 0px;
 }
+.navbar-nav .nav-item .nav-link{
+  font-size: 1rem;
+}
