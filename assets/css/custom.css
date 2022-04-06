@@ -53,7 +53,7 @@ blockquote:before {
     transition: all 0.5s;
 }
 .navbar-nav .nav-item .nav-link {
-    font-size: 1rem;
+    font-size: 0.95rem;
     text-align: center;
 }
 #btn-back-to-top {

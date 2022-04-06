@@ -18,16 +18,22 @@ window.onscroll = function () {
 		top_btn.style.display = "none";
 	}
 	/* Su kien dung de danh dau menu khi cuon trang */
-	let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-	for (className in sections) {
-		// Neu o cuoi trang
-		if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-			window.location.hash = '#form';
-		}
-		// Neu o cac menu dau tien
-		else if (sections[className] <= scrollPosition + 100) {
-			removeActive();
-			document.getElementsByClassName(className)[0].className += " active";
+	// Neu o cuoi trang
+	if ( window.scrollY === 0) {
+		removeActive();
+	}
+	else if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+		removeActive();
+		document.getElementsByClassName('form')[0].className += " active";
+	}
+	else {
+		let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+		for (className in sections) {
+			// Neu o cac menu dau tien
+			if (sections[className] <= scrollPosition + 104) {
+				removeActive();
+				document.getElementsByClassName(className)[0].className += " active";
+			}
 		}
 	}
 };
