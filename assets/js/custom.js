@@ -30,7 +30,7 @@ window.onscroll = function () {
 		let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
 		for (className in sections) {
 			// Neu o cac menu dau tien
-			if (sections[className] <= scrollPosition + 104) {
+			if (sections[className] <= scrollPosition + 150) {
 				removeActive();
 				document.getElementsByClassName(className)[0].className += " active";
 			}
