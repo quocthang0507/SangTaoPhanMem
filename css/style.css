@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap");
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_extend.scss */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,55 +12,29 @@
   justify-content: start;
 }
 
-/* line 12, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_extend.scss */
 .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9600+0,fe531e+26,c022a5+57,1bb8f9+100 */
   background: #ff9600;
-  /* Old browsers */
   background: -moz-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-  /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-  /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#1bb8f9',GradientType=0 );
-  /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9600', endColorstr='#1bb8f9', GradientType=0);
 }
 
-/* line 23, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_extend.scss */
-.event_area .double_line::before, .event_area .double_line::after {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9600+0,fe531e+26,c022a5+57,1bb8f9+100 */
+.event_area .double_line::before,
+.event_area .double_line::after {
   background: #ff9600;
-  /* Old browsers */
   background: -moz-linear-gradient(left, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-  /* FF3.6-15 */
   background: -webkit-linear-gradient(left, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-  /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#1bb8f9',GradientType=1 );
-  /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9600', endColorstr='#1bb8f9', GradientType=1);
 }
 
-/* Normal desktop :1200px. */
-/* Normal desktop :992px. */
-/* Tablet desktop :768px. */
-/* small mobile :320px. */
-/* Large Mobile :480px. */
-/* 1. Theme default css */
-/* Normal desktop :1200px. */
-/* Normal desktop :992px. */
-/* Tablet desktop :768px. */
-/* small mobile :320px. */
-/* Large Mobile :480px. */
-/* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .img {
   max-width: 100%;
   -webkit-transition: 0.3s;
@@ -70,7 +43,6 @@ body {
   transition: 0.3s;
 }
 
-/* line 19, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 a,
 .button {
   -webkit-transition: 0.3s;
@@ -79,20 +51,18 @@ a,
   transition: 0.3s;
 }
 
-/* line 23, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 a:focus,
-.button:focus, button:focus {
+.button:focus,
+button:focus {
   text-decoration: none;
   outline: none;
 }
 
-/* line 28, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 a:focus {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 32, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -101,20 +71,21 @@ a:hover,
   color: #000;
 }
 
-/* line 39, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 a,
 button {
   color: #131313;
   outline: medium none;
 }
 
-/* line 44, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
-h1, h2, h3, h4, h5 {
-  font-family: "Poppins", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Open Sans", sans-serif;
   color: #131313;
 }
 
-/* line 48, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 h1 a,
 h2 a,
 h3 a,
@@ -124,28 +95,24 @@ h6 a {
   color: inherit;
 }
 
-/* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 ul {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 li {
   list-style: none;
 }
 
-/* line 64, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 p {
   font-size: 14px;
   font-weight: 300;
   line-height: 26px;
   color: #808080;
   margin-bottom: 13px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-/* line 73, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 label {
   color: #7e7e7e;
   cursor: pointer;
@@ -153,102 +120,85 @@ label {
   font-weight: 400;
 }
 
-/* line 79, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 *::-moz-selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 84, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 ::-moz-selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 89, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 ::selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 94, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 *::-webkit-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 99, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 *:-ms-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 104, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 *::-ms-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 109, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 *::placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 115, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 119, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .mb-65 {
   margin-bottom: 67px;
 }
 
-/* line 123, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .black-bg {
   background: #020c26 !important;
 }
 
-/* line 127, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .white-bg {
   background: #ffffff;
 }
 
-/* line 130, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .gray-bg {
   background: #f5f5f5;
 }
 
-/* line 135, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .bg-img-1 {
   background-image: url(../img/slider/slider-img-1.jpg);
 }
 
-/* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .bg-img-2 {
   background-image: url(../img/background-img/bg-img-2.jpg);
 }
 
-/* line 141, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .cta-bg-1 {
   background-image: url(../img/background-img/bg-img-3.jpg);
 }
 
-/* line 146, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .overlay {
   position: relative;
   z-index: 0;
 }
 
-/* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .overlay::before {
   position: absolute;
   content: "";
@@ -261,13 +211,11 @@ h3 {
   opacity: 0.851;
 }
 
-/* line 162, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .overlay2 {
   position: relative;
   z-index: 0;
 }
 
-/* line 166, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .overlay2::before {
   position: absolute;
   content: "";
@@ -280,19 +228,15 @@ h3 {
   opacity: 0.2;
 }
 
-/* line 178, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .section-padding {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-/* line 182, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .pt-120 {
   padding-top: 120px;
 }
 
-/* button style */
-/* line 188, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .owl-carousel .owl-nav div {
   background: transparent;
   height: 54px;
@@ -314,38 +258,32 @@ h3 {
   border-radius: 50%;
 }
 
-/* line 212, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .owl-carousel .owl-nav div.owl-next {
   left: auto;
   right: 0;
 }
 
-/* line 217, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .owl-carousel .owl-nav div.owl-next i {
   position: relative;
   right: -2px;
   top: -3px;
 }
 
-/* line 224, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .owl-carousel .owl-nav div.owl-prev i {
   position: relative;
   right: 1px;
   top: -2px;
 }
 
-/* line 234, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .owl-carousel:hover .owl-nav div {
   opacity: 1;
   visibility: visible;
 }
 
-/* line 237, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
 }
 
-/* line 244, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .seperator {
   display: inline-block;
   width: 90px;
@@ -356,7 +294,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 244, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
   .seperator {
     margin-top: 15px;
     margin-bottom: 20px;
@@ -364,61 +301,52 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 244, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
   .seperator {
     margin-top: 15px;
     margin-bottom: 10px;
   }
 }
 
-/* line 262, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .mb-95 {
   margin-bottom: 95px;
 }
 
 @media (max-width: 767px) {
-  /* line 262, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
   .mb-95 {
     margin-bottom: 30px;
   }
 }
 
-/* line 269, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .mb-80 {
   margin-bottom: 80px;
 }
 
 @media (max-width: 767px) {
-  /* line 269, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
   .mb-80 {
     margin-bottom: 30px;
   }
 }
 
-/* line 275, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .mb-60 {
   margin-bottom: 60px;
 }
 
 @media (max-width: 767px) {
-  /* line 275, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
   .mb-60 {
     margin-bottom: 30px;
   }
 }
 
-/* line 281, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .mb-20 {
   margin-bottom: 20px;
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn {
   background: #fff;
   color: #131313;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -428,30 +356,26 @@ h3 {
   text-transform: uppercase;
 }
 
-/* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn:hover {
   background: #0181F5;
   color: #fff !important;
   border: 1px solid #0181F5;
 }
 
-/* line 20, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn:focus {
   outline: none;
 }
 
-/* line 23, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn.large-width {
   width: 220px;
 }
 
-/* line 27, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-red {
   background: #fff;
   color: #FF0000;
   display: inline-block;
   padding: 16px 44px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -461,30 +385,26 @@ h3 {
   text-transform: capitalize;
 }
 
-/* line 41, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-red:hover {
   background: #FF0000;
   color: #fff !important;
   border: 2px solid #FF0000;
 }
 
-/* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-red:focus {
   outline: none;
 }
 
-/* line 49, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-red.large-width {
   width: 220px;
 }
 
-/* line 53, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn2 {
   background: transparent;
   color: #fff;
   display: inline-block;
   padding: 18px 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -492,24 +412,21 @@ h3 {
   text-transform: uppercase;
 }
 
-/* line 64, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn2:hover {
   background: #fff;
   color: #131313 !important;
 }
 
-/* line 68, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn2:focus {
   outline: none;
 }
 
-/* line 73, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-white {
   background: transparent;
   color: #fff;
   display: inline-block;
   padding: 16px 43px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -520,67 +437,58 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 73, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
   .boxed-btn-white {
     padding: 14px 20px;
     font-size: 15px;
   }
 }
 
-/* line 91, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-white:hover {
   background: #fff;
   color: #000 !important;
   border: 2px solid #fff;
 }
 
-/* line 96, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-white:focus {
   outline: none;
 }
 
-/* line 99, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-white.large-width {
   width: 220px;
 }
 
-/* line 2, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
 .section_title .sub_heading {
   color: #c9c9c9;
   display: block;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 22px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 2, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .section_title .sub_heading {
     margin-bottom: 10px;
   }
 }
 
-/* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
 .section_title .sub_heading2 {
   color: #808080;
   display: block;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 22px;
 }
 
 @media (max-width: 767px) {
-  /* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .section_title .sub_heading2 {
     margin-bottom: 5px;
   }
 }
 
-/* line 27, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
 .section_title h3 {
   font-size: 46px;
   font-weight: 500;
@@ -589,7 +497,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 27, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .section_title h3 {
     font-size: 26px;
     line-height: 32px;
@@ -597,7 +504,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 27, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .section_title h3 {
     font-size: 25px;
     font-weight: 500;
@@ -606,33 +512,28 @@ h3 {
   }
 }
 
-/* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
 .section_title.padding-right {
   padding-right: 76px;
 }
 
 @media (max-width: 767px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .section_title.padding-right {
     padding-right: 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .section_title.padding-right {
     padding-right: 0;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .section_title.padding-right {
     padding-right: 0;
   }
 }
 
-/* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
 .serction_title_large h3 {
   font-size: 80px;
   font-weight: 700;
@@ -642,27 +543,23 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .serction_title_large h3 {
     font-size: 35px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .serction_title_large h3 {
     font-size: 45px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .serction_title_large h3 {
     font-size: 60px;
   }
 }
 
-/* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
 .serction_title_large h3::before {
   position: absolute;
   right: 0;
@@ -676,7 +573,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .serction_title_large h3::before {
     width: 80px;
     right: -100px;
@@ -685,7 +581,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
   .mobile_menu {
     position: absolute;
     right: 0px;
@@ -694,7 +589,6 @@ h3 {
   }
 }
 
-/* line 13, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav {
   background: #fff;
   float: right;
@@ -711,32 +605,27 @@ h3 {
   top: 10px;
 }
 
-/* line 28, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
   color: #0181F5;
 }
 
-/* line 32, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
   color: #0181F5;
 }
 
 @media (max-width: 767px) {
-  /* line 35, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
   .slicknav_menu .slicknav_nav a i {
     display: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 35, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
   .slicknav_menu .slicknav_nav a i {
     display: none;
   }
 }
 
-/* line 44, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav .slicknav_btn {
   background-color: transparent;
   cursor: pointer;
@@ -750,7 +639,6 @@ h3 {
   top: -32px;
 }
 
-/* line 55, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav .slicknav_btn .slicknav_icon {
   margin-right: 6px;
   margin-top: 3px;
@@ -761,13 +649,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 12, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
   .slicknav_menu {
     margin-right: 12px;
   }
 }
 
-/* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
 .slicknav_nav .slicknav_arrow {
   float: right;
   font-size: 22px;
@@ -775,7 +661,6 @@ h3 {
   top: -9px;
 }
 
-/* line 78, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
 .slicknav_btn {
   background-color: transparent;
   cursor: pointer;
@@ -791,12 +676,10 @@ h3 {
   top: -27px;
 }
 
-/* line 92, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
 .slicknav_icon-bar {
   background: #fff !important;
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area {
   position: absolute;
   left: 0;
@@ -804,135 +687,115 @@ h3 {
   width: 100%;
 }
 
-/* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area {
   padding: 0 150px;
 }
 
 @media (max-width: 767px) {
-  /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 0;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 0 50px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     padding-left: 20px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     padding-left: 20px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
     width: 100px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
     width: 120px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
     width: 120px;
   }
 }
 
-/* line 36, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
   text-align: center;
   padding: 12px 0;
 }
 
-/* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
 }
 
-/* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
+  /* color: #fff; */
   font-size: 16px;
   font-weight: 600;
   display: inline-block;
   padding: 35px 23px 35px 23px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   position: relative;
   text-transform: capitalize;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
     padding: 35px 8px 35px 8px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
     padding: 35px 8px 35px 8px;
   }
 }
 
-/* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a i {
   font-size: 9px;
 }
 
 @media (max-width: 767px) {
-  /* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
   }
 }
 
-/* line 92, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
   color: #0181F5;
 }
 
-/* line 95, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a.active {
   color: #0181F5;
 }
 
-/* line 99, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu {
   position: absolute;
   left: 0;
@@ -950,12 +813,10 @@ h3 {
   transition: 0.6s;
 }
 
-/* line 111, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li {
   display: block;
 }
 
-/* line 113, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li a {
   padding: 10px 15px;
   position: inherit;
@@ -967,30 +828,25 @@ h3 {
   color: #000;
 }
 
-/* line 119, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li a::before {
   display: none;
 }
 
-/* line 123, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li:hover a {
   color: #808080;
 }
 
-/* line 128, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li:hover > .submenu {
+.header-area .main-header-area .main-menu ul li:hover>.submenu {
   opacity: 1;
   visibility: visible;
   top: 100%;
 }
 
-/* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li:hover > a::before {
+.header-area .main-header-area .main-menu ul li:hover>a::before {
   opacity: 1;
   transform: scaleX(1);
 }
 
-/* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky {
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -999,7 +855,7 @@ h3 {
   left: 0;
   right: 0;
   z-index: 99;
-  background: #000;
+  background: #FFF;
   transform: translateY(70px);
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -1008,44 +864,37 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     padding: 10px 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     padding: 10px 0;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     padding: 0 50px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     padding: 0 50px;
   }
 }
 
-/* line 166, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky .main-menu {
   padding: 0;
 }
 
-/* line 172, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .buy_ticket {
   text-align: right;
 }
 
-/* line 174, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .buy_ticket a {
   text-transform: capitalize;
   letter-spacing: 0;
@@ -1053,28 +902,24 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 174, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .buy_ticket a {
     padding: 10px 20px;
   }
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_bg_1 {
   background-image: url(../img/banner/banner_1.png);
 }
 
-/* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area {
   background-size: cover;
-  background-position: center  center;
+  background-position: center center;
   background-repeat: no-repeat;
   padding-top: 300px;
   padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
-  /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area {
     padding-top: 140px;
     padding-bottom: 30px;
@@ -1082,19 +927,16 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area {
     padding-top: 140px;
     padding-bottom: 30px;
   }
 }
 
-/* line 18, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .position_relv {
   position: relative;
 }
 
-/* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text {
   position: relative;
   margin-bottom: 213px;
@@ -1103,46 +945,39 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text {
     margin-bottom: 30px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text {
     margin-bottom: 30px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text {
     margin-bottom: 30px;
   }
 }
 
-/* line 36, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text.title_text2 {
   margin-bottom: 60px;
   padding: 55px 8px 25px 0px;
 }
 
 @media (max-width: 767px) {
-  /* line 36, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text.title_text2 {
     margin-bottom: 0;
     padding: 0;
   }
 }
 
-/* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text.title_text2::before {
   display: none;
 }
 
-/* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text.title_text2:after {
   position: absolute;
   background-image: url(../img/banner/path2.png);
@@ -1158,34 +993,29 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text.title_text2:after {
     display: none;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text.title_text2:after {
     display: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text.title_text2:after {
     display: none;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text.title_text2:after {
     display: none;
   }
 }
 
-/* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text::before {
   position: absolute;
   background-image: url(../img/banner/path.png);
@@ -1201,34 +1031,29 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text::before {
     display: none;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text::before {
     display: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text::before {
     display: none;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text::before {
     display: none;
   }
 }
 
-/* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text h3 {
   font-size: 90px;
   font-weight: 700;
@@ -1239,7 +1064,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text h3 {
     font-size: 36px;
     line-height: 43px;
@@ -1248,7 +1072,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text h3 {
     font-size: 46px;
     line-height: 55px;
@@ -1257,7 +1080,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text h3 {
     font-size: 60px;
     line-height: 70px;
@@ -1265,7 +1087,6 @@ h3 {
   }
 }
 
-/* line 121, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .single_date {
   color: #fff;
   font-size: 20px;
@@ -1273,29 +1094,24 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 121, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .single_date {
     margin-bottom: 15px;
   }
 }
 
-/* line 128, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .single_date i {
   padding-right: 10px;
 }
 
-/* line 135, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .countDOwn_area {
   padding-top: 60px;
 }
 
-/* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .countdown_time {
   text-align: right;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .countdown_time {
     margin-top: 40px;
     text-align: left;
@@ -1303,20 +1119,17 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .countdown_time {
     text-align: left;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .countdown_time {
     text-align: left;
   }
 }
 
-/* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .countdown_time .single_countdown {
   display: inline-block;
   text-align: right;
@@ -1324,7 +1137,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .countdown_time .single_countdown {
     margin-right: 10px;
     margin-top: 20px;
@@ -1332,14 +1144,12 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .countdown_time .single_countdown {
     margin-right: 10px;
     margin-top: 20px;
   }
 }
 
-/* line 162, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .countdown_time .single_countdown h3 {
   color: #fff;
   font-size: 46px;
@@ -1347,20 +1157,17 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 162, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .countdown_time .single_countdown h3 {
     font-size: 20px;
   }
 }
 
-/* line 170, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .countdown_time .single_countdown span {
   font-size: 16px;
   color: #fff;
   text-transform: capitalize;
 }
 
-/* line 178, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .opcity_text {
   position: absolute;
   right: 0;
@@ -1377,27 +1184,23 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 178, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .opcity_text {
     font-size: 90px;
   }
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area {
   padding-top: 200px;
   padding-bottom: 100px;
   position: relative;
 }
 
-/* line 5, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .shape-1 {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .shape-2 {
   position: absolute;
   bottom: 15%;
@@ -1405,14 +1208,12 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .about_area .shape-2 {
     bottom: 3%;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .about_area {
     padding-top: 40px;
     padding-bottom: 30px;
@@ -1420,25 +1221,21 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .about_area {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
-/* line 26, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_thumb {
   position: relative;
   z-index: 2;
 }
 
-/* line 29, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_thumb img {
   width: 100%;
 }
 
-/* line 32, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_thumb .exprience {
   position: absolute;
   top: 50%;
@@ -1452,7 +1249,6 @@ h3 {
   left: 50%;
 }
 
-/* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_thumb .exprience h1 {
   color: #131313;
   font-weight: 700;
@@ -1461,15 +1257,13 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .about_area .about_thumb .exprience h1 {
     font-size: 30px;
   }
 }
 
-/* line 52, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_thumb .exprience span {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
@@ -1477,19 +1271,16 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .about_area .about_info {
     margin-top: 30px;
   }
 }
 
-/* line 65, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_info .about_list {
   margin-bottom: 50px;
   margin-top: 34px;
 }
 
-/* line 68, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_info .about_list li {
   font-weight: 400;
   font-size: 16px;
@@ -1501,13 +1292,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 68, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .about_area .about_info .about_list li {
     font-size: 14px;
   }
 }
 
-/* line 79, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_info .about_list li::before {
   content: "";
   background: #02c856;
@@ -1521,7 +1310,6 @@ h3 {
   transform: translateY(-50%);
 }
 
-/* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_info p {
   font-size: 16px;
   font-weight: 400;
@@ -1532,31 +1320,26 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .about_area .about_info p {
     margin-bottom: 30px;
   }
 }
 
-/* line 105, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_info a {
   text-align: center;
 }
 
-/* line 111, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .dream_service {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 114, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .dream_service.extra_padding2 {
   padding-top: 200px;
   padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
-  /* line 114, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .dream_service.extra_padding2 {
     padding-top: 30px;
     padding-bottom: 0px;
@@ -1564,7 +1347,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 114, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .dream_service.extra_padding2 {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1572,40 +1354,34 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 111, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .dream_service {
     padding-top: 30px;
     padding-bottom: 0px;
   }
 }
 
-/* line 130, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .dream_service .single_dream {
   padding: 0 20px;
 }
 
 @media (max-width: 767px) {
-  /* line 130, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .dream_service .single_dream {
     margin-bottom: 30px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 130, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .dream_service .single_dream {
     padding: 0 10px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 139, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .dream_service .single_dream .thumb img {
     width: 100%;
   }
 }
 
-/* line 146, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .dream_service .single_dream h3 {
   color: #131313;
   font-size: 26px;
@@ -1614,7 +1390,6 @@ h3 {
   margin-bottom: 20px;
 }
 
-/* line 153, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .dream_service .single_dream p {
   margin-bottom: 0;
   line-height: 28px;
@@ -1622,12 +1397,10 @@ h3 {
   color: #808080;
 }
 
-/* line 161, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .youtube_bg {
   background-image: url(../img/video/youtube_bg.png);
 }
 
-/* line 166, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .youtube_video_area .youtube_video {
   height: 580px;
   display: -webkit-box;
@@ -1647,13 +1420,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 166, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .youtube_video_area .youtube_video {
     height: 400px;
   }
 }
 
-/* line 175, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .youtube_video_area .youtube_video .youtube_play_btn a {
   background: #d7143a;
   color: #fff;
@@ -1666,26 +1437,22 @@ h3 {
   border-radius: 15px;
 }
 
-/* line 185, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .youtube_video_area .youtube_video .youtube_play_btn a i {
   position: relative;
   top: -2px;
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area {
   padding-top: 100px;
   position: relative;
   padding-bottom: 105px;
 }
 
-/* line 5, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area.inc_padd {
   padding-top: 200px;
 }
 
 @media (max-width: 767px) {
-  /* line 5, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
   .speakers_area.inc_padd {
     padding-bottom: 0px;
     padding-top: 50px;
@@ -1693,7 +1460,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 5, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
   .speakers_area.inc_padd {
     padding-bottom: 100px;
     padding-top: 70px;
@@ -1701,14 +1467,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
   .speakers_area {
     padding-bottom: 0px;
     padding-top: 50px;
   }
 }
 
-/* line 20, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .horizontal_text {
   font-size: 120px;
   font-weight: 700;
@@ -1719,30 +1483,25 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 20, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
   .speakers_area .horizontal_text {
     font-size: 90px;
   }
 }
 
-/* line 31, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker {
   margin-bottom: 90px;
   overflow: hidden;
 }
 
-/* line 34, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker .speaker_thumb {
   position: relative;
   overflow: hidden;
 }
 
-/* line 37, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker .speaker_thumb img {
   width: 100%;
 }
 
-/* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker .speaker_thumb .hover_overlay {
   position: absolute;
   width: 100%;
@@ -1761,7 +1520,6 @@ h3 {
   opacity: 0;
 }
 
-/* line 50, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon {
   position: absolute;
   left: 0;
@@ -1774,7 +1532,6 @@ h3 {
   transition: 0.5s;
 }
 
-/* line 58, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a {
   width: 50px;
   height: 50px;
@@ -1793,12 +1550,10 @@ h3 {
   margin: 0 7px;
 }
 
-/* line 70, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
   color: #fff;
 }
 
-/* line 79, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker .speaker_name h3 {
   font-size: 26px;
   font-weight: 600;
@@ -1806,7 +1561,6 @@ h3 {
   margin-bottom: 7px;
 }
 
-/* line 85, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker .speaker_name p {
   margin-bottom: 0;
   font-size: 16px;
@@ -1814,7 +1568,6 @@ h3 {
   font-weight: 400;
 }
 
-/* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker:hover .hover_overlay {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -1823,7 +1576,6 @@ h3 {
   opacity: 1;
 }
 
-/* line 98, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker:hover .speaker_thumb .social_icon {
   -webkit-transform: scaleX(1);
   -moz-transform: scaleX(1);
@@ -1831,27 +1583,23 @@ h3 {
   transform: scaleX(1);
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .resister_bg_1 {
   background-image: url(../img/banner/resister.png);
 }
 
-/* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .resister_book {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center  center;
+  background-position: center center;
   padding: 184px 0;
 }
 
 @media (max-width: 767px) {
-  /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
   .resister_book {
     padding: 80px 0;
   }
 }
 
-/* line 13, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .resister_book .resister_text h3 {
   font-size: 46px;
   font-weight: 700;
@@ -1861,7 +1609,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 13, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
   .resister_book .resister_text h3 {
     font-size: 30px;
     line-height: 40px;
@@ -1869,37 +1616,31 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 23, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
   .resister_book .resister_text h3 br {
     display: none;
   }
 }
 
-/* line 34, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .brand_area {
   padding-top: 120px;
   padding-bottom: 100px;
 }
 
-/* line 37, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .brand_area.dec_padding {
   padding-bottom: 80px;
 }
 
 @media (max-width: 767px) {
-  /* line 34, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
   .brand_area {
     padding: 40px 0;
   }
 }
 
-/* line 44, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .brand_area .brand_active .single_brand {
   text-align: center;
   cursor: e-resize;
 }
 
-/* line 47, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .brand_area .brand_active .single_brand img {
   width: auto;
   display: inline-block;
@@ -1910,45 +1651,38 @@ h3 {
   transition: 0.3s;
 }
 
-/* line 54, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .brand_area .brand_active .single_brand:hover img {
   filter: contrast(1);
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
 .faq_area {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
   .faq_area {
     padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 
-/* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
 .faq_area .accordion_heading {
   margin-bottom: 100px;
 }
 
 @media (max-width: 767px) {
-  /* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
   .faq_area .accordion_heading {
     margin-bottom: 30px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
   .faq_area .accordion_heading {
     margin-bottom: 30px;
   }
 }
 
-/* line 16, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
 .faq_area .accordion_heading h3 {
   font-size: 42px;
   font-weight: 400;
@@ -1956,13 +1690,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 16, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
   .faq_area .accordion_heading h3 {
     font-size: 28px;
   }
 }
 
-/* line 30, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
 .faq_area #accordion .card h5 button {
   font-size: 22px;
   font-weight: 400;
@@ -1970,38 +1702,32 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 30, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
   .faq_area #accordion .card h5 button {
     font-size: 13px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 30, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
   .faq_area #accordion .card h5 button {
     font-size: 18px;
   }
 }
 
-/* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
 .faq_area #accordion .card h5 button img {
   margin-right: 15px;
 }
 
-/* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
 .faq_area #accordion .card .card-body {
   padding: 0 0 40px 76px;
 }
 
 @media (max-width: 767px) {
-  /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
   .faq_area #accordion .card .card-body {
     padding: 0 20px 10px 20px;
     font-size: 12px;
   }
 }
 
-/* line 54, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
 .faq_area #accordion .card {
   position: relative;
   display: -webkit-box;
@@ -2025,13 +1751,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 54, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
   .faq_area #accordion .card {
     margin-bottom: 10px;
   }
 }
 
-/* line 77, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
 .faq_area #accordion .card .card-header {
   margin-bottom: 0;
   background-color: #fff;
@@ -2040,20 +1764,18 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 83, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
   .faq_area #accordion .card .card-header span {
     display: none;
   }
 }
 
-/* line 91, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
-.faq_area .btn-link.focus, .faq_area .btn-link:focus {
+.faq_area .btn-link.focus,
+.faq_area .btn-link:focus {
   text-decoration: none;
   border-color: transparent;
   box-shadow: none;
 }
 
-/* line 96, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
 .faq_area .btn-link:hover {
   color: #0056b3;
   text-decoration: none;
@@ -2061,39 +1783,33 @@ h3 {
   border-color: transparent;
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area {
   position: relative;
   padding-bottom: 120px;
 }
 
 @media (max-width: 767px) {
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area {
     padding-bottom: 60px;
   }
 }
 
-/* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area.plus_padding {
   margin-top: 200px;
 }
 
 @media (max-width: 767px) {
-  /* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area.plus_padding {
     margin-top: 60px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area.plus_padding {
     margin-top: 60px;
   }
 }
 
-/* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .vr_text {
   font-size: 120px;
   font-weight: 700;
@@ -2109,13 +1825,11 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area .vr_text {
     left: 2%;
   }
 }
 
-/* line 30, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .double_line {
   position: relative;
   z-index: 9;
@@ -2125,14 +1839,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 30, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area .double_line {
     padding-top: 40px;
     margin-bottom: 20px;
   }
 }
 
-/* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .double_line::before {
   position: absolute;
   content: "";
@@ -2142,7 +1854,6 @@ h3 {
   left: 0;
 }
 
-/* line 49, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .double_line::after {
   position: absolute;
   content: "";
@@ -2152,7 +1863,6 @@ h3 {
   left: 0;
 }
 
-/* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .date h3 {
   font-size: 26px;
   font-weight: 500;
@@ -2160,89 +1870,75 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area .date h3 {
     margin-bottom: 20px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area .date h3 {
     margin-bottom: 30px;
   }
 }
 
-/* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .single_speaker {
   margin-bottom: 63px;
 }
 
 @media (max-width: 767px) {
-  /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area .single_speaker {
     margin-bottom: 30px;
   }
 }
 
-/* line 77, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .single_speaker img {
   float: left;
 }
 
 @media (max-width: 767px) {
-  /* line 77, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area .single_speaker img {
     float: none;
   }
 }
 
-/* line 83, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .single_speaker .speaker-name {
   padding-left: 30px;
   overflow: hidden;
 }
 
 @media (max-width: 767px) {
-  /* line 83, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area .single_speaker .speaker-name {
     padding-left: 0;
     margin-top: 20px;
   }
 }
 
-/* line 90, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .single_speaker .speaker-name .heading {
   margin-bottom: 5px;
 }
 
-/* line 92, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .single_speaker .speaker-name .heading span {
   font-size: 26px;
   color: #1F1F1F;
   font-weight: 500;
 }
 
-/* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .single_speaker .speaker-name .heading .time {
   font-size: 16px;
   font-weight: 500;
   color: #1F1F1F;
 }
 
-/* line 104, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .single_speaker p {
   color: #707070;
   font-size: 16px;
   line-height: 28px;
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer_bg_1 {
   background-image: url(../img/banner/footer_bg_1.png);
 }
 
-/* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer {
   background-repeat: no-repeat;
   background-position: top center;
@@ -2251,21 +1947,18 @@ h3 {
   position: relative;
 }
 
-/* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .circle_ball {
   position: absolute;
   top: -124px;
   left: 110px;
 }
 
-/* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top {
   padding-top: 145px;
   padding-bottom: 129px;
 }
 
 @media (max-width: 767px) {
-  /* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .footer_top {
     padding-top: 60px;
     padding-bottom: 30px;
@@ -2273,20 +1966,17 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget {
     margin-bottom: 30px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget {
     margin-bottom: 30px;
   }
 }
 
-/* line 29, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .footer_title {
   font-size: 22px;
   font-weight: 400;
@@ -2296,13 +1986,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 29, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget .footer_title {
     margin-bottom: 20px;
   }
 }
 
-/* line 39, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .footer_logo {
   font-size: 22px;
   font-weight: 400;
@@ -2312,13 +2000,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 39, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget .footer_logo {
     margin-bottom: 20px;
   }
 }
 
-/* line 49, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p {
   color: #fff;
   line-height: 42px;
@@ -2326,7 +2012,6 @@ h3 {
   font-weight: 500;
 }
 
-/* line 55, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text {
   font-size: 16px;
   color: #B2B2B2;
@@ -2335,54 +2020,45 @@ h3 {
   line-height: 28px;
 }
 
-/* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain {
   color: #B2B2B2;
   font-weight: 400;
 }
 
-/* line 64, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain:hover {
   color: #fff;
   border-bottom: 1px solid #fff;
 }
 
-/* line 70, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a {
   font-weight: 500;
   color: #B2B2B2;
 }
 
-/* line 74, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a:hover {
   color: #fff;
   border-bottom: 1px solid #fff;
 }
 
-/* line 78, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a.first {
   margin-bottom: 10px;
 }
 
-/* line 87, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
   font-size: 16px;
   color: #fff;
   line-height: 42px;
 }
 
-/* line 91, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a:hover {
   color: #0181F5;
 }
 
-/* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .newsletter_form {
   position: relative;
   margin-bottom: 20px;
 }
 
-/* line 100, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .newsletter_form input {
   width: 100%;
   height: 45px;
@@ -2393,13 +2069,11 @@ h3 {
   border: none;
 }
 
-/* line 108, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .newsletter_form input::placeholder {
   font-size: 16px;
   color: #fff;
 }
 
-/* line 113, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .newsletter_form button {
   position: absolute;
   top: 0;
@@ -2414,24 +2088,20 @@ h3 {
   cursor: pointer;
 }
 
-/* line 127, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .newsletter_text {
   font-size: 16px;
   color: #fff;
 }
 
-/* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .copy-right_text {
   padding-bottom: 30px;
 }
 
-/* line 135, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .copy-right_text .footer_border {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 30px;
 }
 
-/* line 139, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right {
   font-size: 16px;
   color: #fff;
@@ -2440,35 +2110,29 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 139, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .copy-right_text .copy_right {
     font-size: 14px;
   }
 }
 
-/* line 147, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right a {
   color: #fff;
 }
 
-/* line 152, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .socail_links {
   margin-top: 47px;
 }
 
 @media (max-width: 767px) {
-  /* line 152, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .socail_links {
     margin-top: 30px;
   }
 }
 
-/* line 158, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .socail_links ul li {
   display: inline-block;
 }
 
-/* line 161, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .socail_links ul li a {
   font-size: 18px;
   color: #C3B2F0;
@@ -2483,17 +2147,14 @@ h3 {
   margin-right: 7px;
 }
 
-/* line 173, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .socail_links ul li a:hover {
   color: #fff !important;
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_bradcam.scss */
 .bradcam_bg {
   background-image: url(../img/banner/breadcam_bg.png);
 }
 
-/* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_bradcam.scss */
 .breadcam_area {
   padding: 170px 0;
   text-align: center;
@@ -2501,7 +2162,6 @@ h3 {
   background-size: cover;
 }
 
-/* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_bradcam.scss */
 .breadcam_area .bradcam_text h3 {
   font-size: 60px;
   color: #fff;
@@ -2511,27 +2171,23 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_bradcam.scss */
   .breadcam_area .bradcam_text h3 {
     font-size: 30px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_bradcam.scss */
   .breadcam_area .bradcam_text h3 {
     font-size: 35px;
   }
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area {
   padding-top: 196px;
   padding-bottom: 166px;
 }
 
 @media (max-width: 767px) {
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
   .team_area {
     padding-top: 40px;
     padding-bottom: 10px;
@@ -2539,24 +2195,20 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
   .team_area {
     padding-top: 100px;
     padding-bottom: 70px;
   }
 }
 
-/* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area span {
   font-size: 14px;
 }
 
-/* line 21, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area .single_team {
   margin-bottom: 30px;
 }
 
-/* line 23, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area .single_team .thumb {
   position: relative;
   width: 200px;
@@ -2569,7 +2221,6 @@ h3 {
   overflow: hidden;
 }
 
-/* line 33, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area .single_team .thumb .author_links {
   position: absolute;
   left: 0;
@@ -2583,24 +2234,20 @@ h3 {
   transition: .3s;
 }
 
-/* line 42, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area .single_team .thumb .author_links ul li {
   display: inline-block;
 }
 
-/* line 44, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area .single_team .thumb .author_links ul li a {
   font-size: 15px;
   color: #d5ccc7;
   margin: 0 12px;
 }
 
-/* line 48, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area .single_team .thumb .author_links ul li a:hover {
   color: #fff;
 }
 
-/* line 55, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area .single_team .thumb::before {
   position: absolute;
   content: '';
@@ -2621,7 +2268,6 @@ h3 {
   transition: 0.5s;
 }
 
-/* line 69, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area .single_team h3 {
   font-size: 26px;
   color: #131313;
@@ -2630,14 +2276,12 @@ h3 {
   margin-bottom: 17px;
 }
 
-/* line 76, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area .single_team p {
   color: #808080;
   font-weight: 400;
   font-size: 16px;
 }
 
-/* line 82, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area .single_team:hover .author_links {
   -webkit-transform: scaleX(1);
   -moz-transform: scaleX(1);
@@ -2645,7 +2289,6 @@ h3 {
   transform: scaleX(1);
 }
 
-/* line 85, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_area .single_team:hover .thumb::before {
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
@@ -2654,23 +2297,18 @@ h3 {
   opacity: .5;
 }
 
-/* line 92, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_1 {
   background-image: url(../img/team/team1.png);
 }
 
-/* line 95, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_2 {
   background-image: url(../img/team/team2.png);
 }
 
-/* line 98, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_team.scss */
 .team_3 {
   background-image: url(../img/team/team3.png);
 }
 
-/*=================== contact banner start ====================*/
-/* line 3, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .dropdown .dropdown-menu {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -2679,23 +2317,20 @@ h3 {
   transition: all 0.3s;
 }
 
-/* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .contact-info {
   margin-bottom: 25px;
 }
 
-/* line 13, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .contact-info__icon {
   margin-right: 20px;
 }
 
-/* line 16, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
 
-/* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .contact-info .media-body h3 {
   font-size: 16px;
   margin-bottom: 0;
@@ -2703,36 +2338,28 @@ h3 {
   color: #2a2a2a;
 }
 
-/* line 30, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .contact-info .media-body h3 a:hover {
   color: #ff5e13;
 }
 
-/* line 36, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .contact-info .media-body p {
   color: #8a8a8a;
 }
 
-/*=================== contact banner end ====================*/
-/*=================== contact form start ====================*/
-/* line 45, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .contact-title {
   font-size: 27px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-/* line 53, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .form-contact label {
   font-size: 14px;
 }
 
-/* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .form-contact .form-group {
   margin-bottom: 30px;
 }
 
-/* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .form-contact .form-control {
   border: 1px solid #e5e6e9;
   border-radius: 0px;
@@ -2742,28 +2369,21 @@ h3 {
   background: transparent;
 }
 
-/* line 69, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .form-contact .form-control:focus {
   outline: 0;
   box-shadow: none;
 }
 
-/* line 74, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .form-contact .form-control::placeholder {
   font-weight: 300;
   color: #999999;
 }
 
-/* line 80, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .form-contact textarea {
   border-radius: 0px;
   height: 100% !important;
 }
 
-/*=================== contact form end ====================*/
-/* Contact Success and error Area css
-============================================================================================ */
-/* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .modal-message .modal-dialog {
   position: absolute;
   top: 36%;
@@ -2774,7 +2394,6 @@ h3 {
   width: 100%;
 }
 
-/* line 106, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .modal-message .modal-dialog .modal-content .modal-header {
   text-align: center;
   display: block;
@@ -2783,7 +2402,6 @@ h3 {
   padding-bottom: 50px;
 }
 
-/* line 112, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .modal-message .modal-dialog .modal-content .modal-header .close {
   position: absolute;
   right: -15px;
@@ -2794,38 +2412,32 @@ h3 {
   cursor: pointer;
 }
 
-/* line 121, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .modal-message .modal-dialog .modal-content .modal-header h2 {
   display: block;
   text-align: center;
   padding-bottom: 10px;
 }
 
-/* line 126, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .modal-message .modal-dialog .modal-content .modal-header p {
   display: block;
 }
 
-/* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .contact-section {
   padding: 130px 0 100px;
 }
 
 @media (max-width: 991px) {
-  /* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
   .contact-section {
     padding: 70px 0 40px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
   .contact-section {
     padding: 80px 0 50px;
   }
 }
 
-/* line 141, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .contact-section .btn_2 {
   background-color: #191d34;
   padding: 18px 60px;
@@ -2833,24 +2445,20 @@ h3 {
   margin-top: 0;
 }
 
-/* line 146, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
 .contact-section .btn_2:hover {
   background-color: #ff5e13;
 }
 
-/* line 75, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .sample-text-area {
   background: #fff;
   padding: 100px 0 70px 0;
 }
 
-/* line 80, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .text-heading {
   margin-bottom: 30px;
   font-size: 24px;
 }
 
-/* line 85, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 b,
 sup,
 sub,
@@ -2859,37 +2467,30 @@ del {
   color: #ff5e13;
 }
 
-/* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 h1 {
   font-size: 36px;
 }
 
-/* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 h2 {
   font-size: 30px;
 }
 
-/* line 101, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 105, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 h4 {
   font-size: 18px;
 }
 
-/* line 109, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 h5 {
   font-size: 16px;
 }
 
-/* line 113, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 h6 {
   font-size: 14px;
 }
 
-/* line 117, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 h1,
 h2,
 h3,
@@ -2899,7 +2500,6 @@ h6 {
   line-height: 1.2em;
 }
 
-/* line 127, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .typography h1,
 .typography h2,
 .typography h3,
@@ -2909,29 +2509,24 @@ h6 {
   color: #828bb2;
 }
 
-/* line 137, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .button-area {
   background: #fff;
 }
 
-/* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .button-area .border-top-generic {
   padding: 70px 15px;
   border-top: 1px dotted #eee;
 }
 
-/* line 146, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .button-group-area .genric-btn {
   margin-right: 10px;
   margin-top: 10px;
 }
 
-/* line 149, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .button-group-area .genric-btn:last-child {
   margin-right: 0;
 }
 
-/* line 155, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn {
   display: inline-block;
   outline: none;
@@ -2948,43 +2543,35 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 
-/* line 166, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn:focus {
   outline: none;
 }
 
-/* line 169, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.e-large {
   padding: 0 40px;
   line-height: 50px;
 }
 
-/* line 173, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.large {
   line-height: 45px;
 }
 
-/* line 176, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.medium {
   line-height: 30px;
 }
 
-/* line 179, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.small {
   line-height: 25px;
 }
 
-/* line 182, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.radius {
   border-radius: 3px;
 }
 
-/* line 185, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.circle {
   border-radius: 20px;
 }
 
-/* line 188, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.arrow {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -2994,178 +2581,152 @@ h6 {
   align-items: center;
 }
 
-/* line 195, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.arrow span {
   margin-left: 10px;
 }
 
-/* line 199, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.default {
   color: #415094;
   background: #f9f9ff;
   border: 1px solid transparent;
 }
 
-/* line 203, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.default:hover {
   border: 1px solid #f9f9ff;
   background: #fff;
 }
 
-/* line 208, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.default-border {
   border: 1px solid #f9f9ff;
   background: #fff;
 }
 
-/* line 211, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.default-border:hover {
   color: #415094;
   background: #f9f9ff;
   border: 1px solid transparent;
 }
 
-/* line 217, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.primary {
   color: #fff;
   background: #ff5e13;
   border: 1px solid transparent;
 }
 
-/* line 221, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.primary:hover {
   color: #ff5e13;
   border: 1px solid #ff5e13;
   background: #fff;
 }
 
-/* line 227, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.primary-border {
   color: #ff5e13;
   border: 1px solid #ff5e13;
   background: #fff;
 }
 
-/* line 231, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.primary-border:hover {
   color: #fff;
   background: #ff5e13;
   border: 1px solid transparent;
 }
 
-/* line 237, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.success {
   color: #fff;
   background: #4cd3e3;
   border: 1px solid transparent;
 }
 
-/* line 241, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.success:hover {
   color: #4cd3e3;
   border: 1px solid #4cd3e3;
   background: #fff;
 }
 
-/* line 247, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.success-border {
   color: #4cd3e3;
   border: 1px solid #4cd3e3;
   background: #fff;
 }
 
-/* line 251, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.success-border:hover {
   color: #fff;
   background: #4cd3e3;
   border: 1px solid transparent;
 }
 
-/* line 257, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.info {
   color: #fff;
   background: #38a4ff;
   border: 1px solid transparent;
 }
 
-/* line 261, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.info:hover {
   color: #38a4ff;
   border: 1px solid #38a4ff;
   background: #fff;
 }
 
-/* line 267, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.info-border {
   color: #38a4ff;
   border: 1px solid #38a4ff;
   background: #fff;
 }
 
-/* line 271, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.info-border:hover {
   color: #fff;
   background: #38a4ff;
   border: 1px solid transparent;
 }
 
-/* line 277, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.warning {
   color: #fff;
   background: #f4e700;
   border: 1px solid transparent;
 }
 
-/* line 281, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.warning:hover {
   color: #f4e700;
   border: 1px solid #f4e700;
   background: #fff;
 }
 
-/* line 287, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.warning-border {
   color: #f4e700;
   border: 1px solid #f4e700;
   background: #fff;
 }
 
-/* line 291, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.warning-border:hover {
   color: #fff;
   background: #f4e700;
   border: 1px solid transparent;
 }
 
-/* line 297, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.danger {
   color: #fff;
   background: #f44a40;
   border: 1px solid transparent;
 }
 
-/* line 301, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.danger:hover {
   color: #f44a40;
   border: 1px solid #f44a40;
   background: #fff;
 }
 
-/* line 307, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.danger-border {
   color: #f44a40;
   border: 1px solid #f44a40;
   background: #fff;
 }
 
-/* line 311, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.danger-border:hover {
   color: #fff;
   background: #f44a40;
   border: 1px solid transparent;
 }
 
-/* line 317, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.link {
   color: #415094;
   background: #f9f9ff;
@@ -3173,14 +2734,12 @@ h6 {
   border: 1px solid transparent;
 }
 
-/* line 322, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.link:hover {
   color: #415094;
   border: 1px solid #f9f9ff;
   background: #fff;
 }
 
-/* line 328, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.link-border {
   color: #415094;
   border: 1px solid #f9f9ff;
@@ -3188,14 +2747,12 @@ h6 {
   text-decoration: underline;
 }
 
-/* line 333, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.link-border:hover {
   color: #415094;
   background: #f9f9ff;
   border: 1px solid transparent;
 }
 
-/* line 339, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .genric-btn.disable {
   color: #222222, 0.3;
   background: #f9f9ff;
@@ -3203,53 +2760,44 @@ h6 {
   cursor: not-allowed;
 }
 
-/* line 347, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
   border-left: 2px solid #ff5e13;
 }
 
-/* line 353, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table-wrap {
   overflow-x: scroll;
 }
 
-/* line 357, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table {
   background: #f9f9ff;
   padding: 15px 0px 30px 0px;
   min-width: 800px;
 }
 
-/* line 361, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .serial {
   width: 11.83%;
   padding-left: 30px;
 }
 
-/* line 365, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .country {
   width: 28.07%;
 }
 
-/* line 368, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .visit {
   width: 19.74%;
 }
 
-/* line 371, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .percentage {
   width: 40.36%;
   padding-right: 50px;
 }
 
-/* line 375, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-head {
   display: flex;
 }
 
-/* line 377, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-head .serial,
 .progress-table .table-head .country,
 .progress-table .table-head .visit,
@@ -3260,14 +2808,12 @@ h6 {
   font-weight: 500;
 }
 
-/* line 387, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row {
   padding: 15px 0;
   border-top: 1px solid #edf3fd;
   display: flex;
 }
 
-/* line 391, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .serial,
 .progress-table .table-row .country,
 .progress-table .table-row .visit,
@@ -3276,65 +2822,53 @@ h6 {
   align-items: center;
 }
 
-/* line 399, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .country img {
   margin-right: 15px;
 }
 
-/* line 404, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress {
   width: 80%;
   border-radius: 0px;
   background: transparent;
 }
 
-/* line 408, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar {
   height: 5px;
   line-height: 5px;
 }
 
-/* line 411, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-1 {
   background-color: #6382e6;
 }
 
-/* line 414, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-2 {
   background-color: #e66686;
 }
 
-/* line 417, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-3 {
   background-color: #f09359;
 }
 
-/* line 420, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-4 {
   background-color: #73fbaf;
 }
 
-/* line 423, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-5 {
   background-color: #73fbaf;
 }
 
-/* line 426, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-6 {
   background-color: #6382e6;
 }
 
-/* line 429, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-7 {
   background-color: #a367e7;
 }
 
-/* line 432, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-8 {
   background-color: #e66686;
 }
 
-/* line 441, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .single-gallery-image {
   margin-top: 30px;
   background-repeat: no-repeat !important;
@@ -3343,20 +2877,17 @@ h6 {
   height: 200px;
 }
 
-/* line 449, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .list-style {
   width: 14px;
   height: 14px;
 }
 
-/* line 455, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .unordered-list li {
   position: relative;
   padding-left: 30px;
   line-height: 1.82em !important;
 }
 
-/* line 459, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .unordered-list li:before {
   content: "";
   position: absolute;
@@ -3369,12 +2900,10 @@ h6 {
   border-radius: 50%;
 }
 
-/* line 473, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .ordered-list {
   margin-left: 30px;
 }
 
-/* line 475, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .ordered-list li {
   list-style-type: decimal-leading-zero;
   color: #ff5e13;
@@ -3382,13 +2911,11 @@ h6 {
   line-height: 1.82em !important;
 }
 
-/* line 480, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .ordered-list li span {
   font-weight: 300;
   color: #828bb2;
 }
 
-/* line 488, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
@@ -3397,13 +2924,11 @@ h6 {
   line-height: 1.82em !important;
 }
 
-/* line 494, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .ordered-list-alpha li span {
   font-weight: 300;
   color: #828bb2;
 }
 
-/* line 502, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
@@ -3412,13 +2937,11 @@ h6 {
   line-height: 1.82em !important;
 }
 
-/* line 508, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .ordered-list-roman li span {
   font-weight: 300;
   color: #828bb2;
 }
 
-/* line 515, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .single-input {
   display: block;
   width: 100%;
@@ -3429,17 +2952,14 @@ h6 {
   padding: 0 20px;
 }
 
-/* line 523, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .single-input:focus {
   outline: none;
 }
 
-/* line 528, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .input-group-icon {
   position: relative;
 }
 
-/* line 530, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .input-group-icon .icon {
   position: absolute;
   left: 20px;
@@ -3448,17 +2968,14 @@ h6 {
   z-index: 3;
 }
 
-/* line 535, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .input-group-icon .icon i {
   color: #797979;
 }
 
-/* line 540, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .input-group-icon .single-input {
   padding-left: 45px;
 }
 
-/* line 545, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .single-textarea {
   display: block;
   width: 100%;
@@ -3471,12 +2988,10 @@ h6 {
   resize: none;
 }
 
-/* line 555, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .single-textarea:focus {
   outline: none;
 }
 
-/* line 560, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .single-input-primary {
   display: block;
   width: 100%;
@@ -3487,13 +3002,11 @@ h6 {
   padding: 0 20px;
 }
 
-/* line 568, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .single-input-primary:focus {
   outline: none;
   border: 1px solid #ff5e13;
 }
 
-/* line 574, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .single-input-accent {
   display: block;
   width: 100%;
@@ -3504,13 +3017,11 @@ h6 {
   padding: 0 20px;
 }
 
-/* line 582, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .single-input-accent:focus {
   outline: none;
   border: 1px solid #eb6b55;
 }
 
-/* line 588, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .single-input-secondary {
   display: block;
   width: 100%;
@@ -3521,13 +3032,11 @@ h6 {
   padding: 0 20px;
 }
 
-/* line 596, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .single-input-secondary:focus {
   outline: none;
   border: 1px solid #f09359;
 }
 
-/* line 602, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .default-switch {
   width: 35px;
   height: 17px;
@@ -3537,7 +3046,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 609, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .default-switch input {
   position: absolute;
   left: 0;
@@ -3550,8 +3058,7 @@ h6 {
   cursor: pointer;
 }
 
-/* line 619, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.default-switch input + label {
+.default-switch input+label {
   position: absolute;
   top: 1px;
   left: 1px;
@@ -3567,12 +3074,10 @@ h6 {
   cursor: pointer;
 }
 
-/* line 632, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.default-switch input:checked + label {
+.default-switch input:checked+label {
   left: 19px;
 }
 
-/* line 639, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .primary-switch {
   width: 35px;
   height: 17px;
@@ -3582,7 +3087,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 646, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .primary-switch input {
   position: absolute;
   left: 0;
@@ -3594,8 +3098,7 @@ h6 {
   opacity: 0;
 }
 
-/* line 655, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.primary-switch input + label {
+.primary-switch input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -3605,8 +3108,7 @@ h6 {
   height: 100%;
 }
 
-/* line 663, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.primary-switch input + label:before {
+.primary-switch input+label:before {
   content: "";
   position: absolute;
   left: 0;
@@ -3624,8 +3126,7 @@ h6 {
   transition: all 0.2s;
 }
 
-/* line 677, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.primary-switch input + label:after {
+.primary-switch input+label:after {
   content: "";
   position: absolute;
   top: 1px;
@@ -3642,17 +3143,14 @@ h6 {
   cursor: pointer;
 }
 
-/* line 693, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.primary-switch input:checked + label:after {
+.primary-switch input:checked+label:after {
   left: 19px;
 }
 
-/* line 696, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.primary-switch input:checked + label:before {
+.primary-switch input:checked+label:before {
   background: #ff5e13;
 }
 
-/* line 704, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .confirm-switch {
   width: 35px;
   height: 17px;
@@ -3662,7 +3160,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 711, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .confirm-switch input {
   position: absolute;
   left: 0;
@@ -3674,8 +3171,7 @@ h6 {
   opacity: 0;
 }
 
-/* line 720, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.confirm-switch input + label {
+.confirm-switch input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -3685,8 +3181,7 @@ h6 {
   height: 100%;
 }
 
-/* line 728, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.confirm-switch input + label:before {
+.confirm-switch input+label:before {
   content: "";
   position: absolute;
   left: 0;
@@ -3704,8 +3199,7 @@ h6 {
   cursor: pointer;
 }
 
-/* line 742, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.confirm-switch input + label:after {
+.confirm-switch input+label:after {
   content: "";
   position: absolute;
   top: 1px;
@@ -3722,17 +3216,14 @@ h6 {
   cursor: pointer;
 }
 
-/* line 758, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.confirm-switch input:checked + label:after {
+.confirm-switch input:checked+label:after {
   left: 19px;
 }
 
-/* line 761, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.confirm-switch input:checked + label:before {
+.confirm-switch input:checked+label:before {
   background: #4cd3e3;
 }
 
-/* line 769, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .primary-checkbox {
   width: 16px;
   height: 16px;
@@ -3742,7 +3233,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 776, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .primary-checkbox input {
   position: absolute;
   left: 0;
@@ -3754,8 +3244,7 @@ h6 {
   opacity: 0;
 }
 
-/* line 785, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.primary-checkbox input + label {
+.primary-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -3768,13 +3257,11 @@ h6 {
   border: 1px solid #f1f1f1;
 }
 
-/* line 798, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.primary-checkbox input:checked + label {
+.primary-checkbox input:checked+label {
   background: url(../img/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
 
-/* line 806, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .confirm-checkbox {
   width: 16px;
   height: 16px;
@@ -3784,7 +3271,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 813, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .confirm-checkbox input {
   position: absolute;
   left: 0;
@@ -3796,8 +3282,7 @@ h6 {
   opacity: 0;
 }
 
-/* line 822, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.confirm-checkbox input + label {
+.confirm-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -3810,13 +3295,11 @@ h6 {
   border: 1px solid #f1f1f1;
 }
 
-/* line 835, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.confirm-checkbox input:checked + label {
+.confirm-checkbox input:checked+label {
   background: url(../img/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
 
-/* line 843, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .disabled-checkbox {
   width: 16px;
   height: 16px;
@@ -3826,7 +3309,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 850, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .disabled-checkbox input {
   position: absolute;
   left: 0;
@@ -3838,8 +3320,7 @@ h6 {
   opacity: 0;
 }
 
-/* line 859, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.disabled-checkbox input + label {
+.disabled-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -3852,19 +3333,16 @@ h6 {
   border: 1px solid #f1f1f1;
 }
 
-/* line 871, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .disabled-checkbox input:disabled {
   cursor: not-allowed;
   z-index: 3;
 }
 
-/* line 876, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.disabled-checkbox input:checked + label {
+.disabled-checkbox input:checked+label {
   background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
 
-/* line 884, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .primary-radio {
   width: 16px;
   height: 16px;
@@ -3874,7 +3352,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 891, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .primary-radio input {
   position: absolute;
   left: 0;
@@ -3886,8 +3363,7 @@ h6 {
   opacity: 0;
 }
 
-/* line 900, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.primary-radio input + label {
+.primary-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -3900,13 +3376,11 @@ h6 {
   border: 1px solid #f1f1f1;
 }
 
-/* line 913, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.primary-radio input:checked + label {
+.primary-radio input:checked+label {
   background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
 
-/* line 921, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .confirm-radio {
   width: 16px;
   height: 16px;
@@ -3916,7 +3390,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 928, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .confirm-radio input {
   position: absolute;
   left: 0;
@@ -3928,8 +3401,7 @@ h6 {
   opacity: 0;
 }
 
-/* line 937, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.confirm-radio input + label {
+.confirm-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -3942,13 +3414,11 @@ h6 {
   border: 1px solid #f1f1f1;
 }
 
-/* line 950, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.confirm-radio input:checked + label {
+.confirm-radio input:checked+label {
   background: url(../img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
 
-/* line 958, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .disabled-radio {
   width: 16px;
   height: 16px;
@@ -3958,7 +3428,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 965, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .disabled-radio input {
   position: absolute;
   left: 0;
@@ -3970,8 +3439,7 @@ h6 {
   opacity: 0;
 }
 
-/* line 974, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.disabled-radio input + label {
+.disabled-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -3984,24 +3452,20 @@ h6 {
   border: 1px solid #f1f1f1;
 }
 
-/* line 986, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .disabled-radio input:disabled {
   cursor: not-allowed;
   z-index: 3;
 }
 
-/* line 991, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.disabled-radio input:checked + label {
+.disabled-radio input:checked+label {
   background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
 
-/* line 999, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .default-select {
   height: 40px;
 }
 
-/* line 1001, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .default-select .nice-select {
   border: none;
   border-radius: 0px;
@@ -4011,7 +3475,6 @@ h6 {
   padding-right: 40px;
 }
 
-/* line 1008, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .default-select .nice-select .list {
   margin-top: 0;
   border: none;
@@ -4021,7 +3484,6 @@ h6 {
   padding: 10px 0 10px 0px;
 }
 
-/* line 1015, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .default-select .nice-select .list .option {
   font-weight: 300;
   -webkit-transition: all 0.3s ease 0s;
@@ -4034,36 +3496,30 @@ h6 {
   padding-left: 20px;
 }
 
-/* line 1022, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .default-select .nice-select .list .option.selected {
   color: #ff5e13;
   background: transparent;
 }
 
-/* line 1026, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .default-select .nice-select .list .option:hover {
   color: #ff5e13;
   background: transparent;
 }
 
-/* line 1033, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .default-select .current {
   margin-right: 50px;
   font-weight: 300;
 }
 
-/* line 1037, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .default-select .nice-select::after {
   right: 20px;
 }
 
-/* line 1042, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .form-select {
   height: 40px;
   width: 100%;
 }
 
-/* line 1045, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .form-select .nice-select {
   border: none;
   border-radius: 0px;
@@ -4074,7 +3530,6 @@ h6 {
   width: 100%;
 }
 
-/* line 1053, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .form-select .nice-select .list {
   margin-top: 0;
   border: none;
@@ -4084,7 +3539,6 @@ h6 {
   padding: 10px 0 10px 0px;
 }
 
-/* line 1060, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .form-select .nice-select .list .option {
   font-weight: 300;
   -webkit-transition: all 0.3s ease 0s;
@@ -4097,63 +3551,50 @@ h6 {
   padding-left: 45px;
 }
 
-/* line 1067, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .form-select .nice-select .list .option.selected {
   color: #ff5e13;
   background: transparent;
 }
 
-/* line 1071, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .form-select .nice-select .list .option:hover {
   color: #ff5e13;
   background: transparent;
 }
 
-/* line 1078, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .form-select .current {
   margin-right: 50px;
   font-weight: 300;
 }
 
-/* line 1082, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .form-select .nice-select::after {
   right: 20px;
 }
 
-/* line 1086, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .mt-10 {
   margin-top: 10px;
 }
 
-/* line 1089, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .section-top-border {
   padding: 50px 0;
   border-top: 1px dotted #eee;
 }
 
-/* line 1093, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .mb-30 {
   margin-bottom: 30px;
 }
 
-/* line 1096, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .mt-30 {
   margin-top: 30px;
 }
 
-/* line 1099, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .switch-wrap {
   margin-bottom: 10px;
 }
 
-/* Start Blog Area css
-============================================================================================ */
-/* line 5, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .latest-blog-area .area-heading {
   margin-bottom: 70px;
 }
 
-/* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_area a {
   color: #666666 !important;
   text-decoration: none;
@@ -4161,8 +3602,8 @@ h6 {
   transition: 0.5s;
 }
 
-/* line 14, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #0181F5 0%, #0181F5 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -4171,24 +3612,20 @@ h6 {
   transition: 0.5s;
 }
 
-/* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog {
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-/* line 28, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog:hover {
   box-shadow: 0px 10px 20px 0px rgba(42, 34, 123, 0.1);
 }
 
-/* line 32, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog .thumb {
   overflow: hidden;
   position: relative;
 }
 
-/* line 36, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog .thumb:after {
   content: '';
   position: absolute;
@@ -4202,20 +3639,17 @@ h6 {
   transition: 0.5s;
 }
 
-/* line 49, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog h4 {
   border-bottom: 1px solid #dfdfdf;
   padding-bottom: 34px;
   margin-bottom: 25px;
 }
 
-/* line 56, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog a {
   font-size: 20px;
   font-weight: 600;
 }
 
-/* line 66, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog .date {
   color: #666666;
   text-align: left;
@@ -4224,7 +3658,6 @@ h6 {
   font-weight: 300;
 }
 
-/* line 74, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog .tag {
   text-align: left;
   display: inline-block;
@@ -4235,7 +3668,6 @@ h6 {
   position: relative;
 }
 
-/* line 84, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog .tag:after {
   content: '';
   position: absolute;
@@ -4247,40 +3679,34 @@ h6 {
 }
 
 @media (max-width: 1199px) {
-  /* line 74, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .single-blog .tag {
     margin-right: 8px;
   }
-  /* line 98, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
+
   .single-blog .tag:after {
     display: none;
   }
 }
 
-/* line 104, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog .likes {
   margin-right: 16px;
 }
 
 @media (max-width: 800px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .single-blog {
     margin-bottom: 30px;
   }
 }
 
-/* line 112, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog .single-blog-content {
   padding: 30px;
 }
 
-/* line 116, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog .single-blog-content .meta-bottom p {
   font-size: 13px;
   font-weight: 300;
 }
 
-/* line 121, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog .single-blog-content .meta-bottom i {
   color: #fdcb9e;
   font-size: 13px;
@@ -4288,13 +3714,11 @@ h6 {
 }
 
 @media (max-width: 1199px) {
-  /* line 112, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .single-blog .single-blog-content {
     padding: 15px;
   }
 }
 
-/* line 135, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-blog:hover .thumb:after {
   opacity: .7;
   -webkit-transition: 0.5s;
@@ -4302,25 +3726,22 @@ h6 {
 }
 
 @media (max-width: 1199px) {
-  /* line 143, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .single-blog h4 {
     transition: all 300ms linear 0s;
     border-bottom: 1px solid #dfdfdf;
     padding-bottom: 14px;
     margin-bottom: 12px;
   }
-  /* line 149, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
+
   .single-blog h4 a {
     font-size: 18px;
   }
 }
 
-/* line 157, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .full_image.single-blog {
   position: relative;
 }
 
-/* line 160, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .full_image.single-blog .single-blog-content {
   position: absolute;
   left: 35px;
@@ -4332,13 +3753,11 @@ h6 {
 }
 
 @media (min-width: 992px) {
-  /* line 160, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .full_image.single-blog .single-blog-content {
     bottom: 100px;
   }
 }
 
-/* line 179, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .full_image.single-blog h4 {
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4346,18 +3765,15 @@ h6 {
   padding-bottom: 5px;
 }
 
-/* line 185, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .full_image.single-blog a {
   font-size: 20px;
   font-weight: 600;
 }
 
-/* line 195, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .full_image.single-blog .date {
   color: #fff;
 }
 
-/* line 200, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .full_image.single-blog:hover .single-blog-content {
   opacity: 1;
   visibility: visible;
@@ -4365,22 +3781,15 @@ h6 {
   transition: 0.5s;
 }
 
-/* End Blog Area css
-============================================================================================ */
-/* Latest Blog Area css
-============================================================================================ */
-/* line 224, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .l_blog_item .l_blog_text .date {
   margin-top: 24px;
   margin-bottom: 15px;
 }
 
-/* line 228, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .l_blog_item .l_blog_text .date a {
   font-size: 12px;
 }
 
-/* line 234, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .l_blog_item .l_blog_text h4 {
   font-size: 18px;
   border-bottom: 1px solid #eeeeee;
@@ -4390,23 +3799,16 @@ h6 {
   transition: 0.5s;
 }
 
-/* line 247, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .l_blog_item .l_blog_text p {
   margin-bottom: 0px;
   padding-top: 20px;
 }
 
-/* End Latest Blog Area css
-============================================================================================ */
-/* Causes Area css
-============================================================================================ */
-/* line 263, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_slider .owl-dots {
   text-align: center;
   margin-top: 80px;
 }
 
-/* line 267, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_slider .owl-dots .owl-dot {
   height: 14px;
   width: 14px;
@@ -4415,22 +3817,18 @@ h6 {
   margin-right: 7px;
 }
 
-/* line 274, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_slider .owl-dots .owl-dot:last-child {
   margin-right: 0px;
 }
 
-/* line 285, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_item {
   background: #fff;
 }
 
-/* line 288, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_item .causes_img {
   position: relative;
 }
 
-/* line 291, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_item .causes_img .c_parcent {
   position: absolute;
   bottom: 0px;
@@ -4440,7 +3838,6 @@ h6 {
   background: rgba(255, 255, 255, 0.5);
 }
 
-/* line 299, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_item .causes_img .c_parcent span {
   width: 70%;
   height: 3px;
@@ -4449,7 +3846,6 @@ h6 {
   bottom: 0px;
 }
 
-/* line 307, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_item .causes_img .c_parcent span:before {
   content: "75%";
   position: absolute;
@@ -4459,12 +3855,10 @@ h6 {
   padding: 0px 5px;
 }
 
-/* line 320, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_item .causes_text {
   padding: 30px 35px 40px 30px;
 }
 
-/* line 323, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_item .causes_text h4 {
   font-size: 18px;
   font-weight: 600;
@@ -4472,7 +3866,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 336, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_item .causes_text p {
   font-size: 14px;
   line-height: 24px;
@@ -4480,7 +3873,6 @@ h6 {
   margin-bottom: 0px;
 }
 
-/* line 346, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_item .causes_bottom a {
   width: 50%;
   border: 1px solid;
@@ -4492,61 +3884,48 @@ h6 {
   font-weight: 500;
 }
 
-/* line 358, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
-.causes_item .causes_bottom a + a {
+.causes_item .causes_bottom a+a {
   border-color: #eeeeee;
   background: #fff;
   font-size: 14px;
 }
 
-/* End Causes Area css
-============================================================================================ */
-/*================= latest_blog_area css =============*/
-/* line 374, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .latest_blog_area {
   background: #f9f9ff;
 }
 
-/* line 378, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-recent-blog-post {
   margin-bottom: 30px;
 }
 
-/* line 381, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-recent-blog-post .thumb {
   overflow: hidden;
 }
 
-/* line 384, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-recent-blog-post .thumb img {
   transition: all 0.7s linear;
 }
 
-/* line 389, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-recent-blog-post .details {
   padding-top: 30px;
 }
 
-/* line 392, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-recent-blog-post .details .sec_h4 {
   line-height: 24px;
   padding: 10px 0px 13px;
   transition: all 0.3s linear;
 }
 
-/* line 403, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-recent-blog-post .date {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
 }
 
-/* line 410, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-recent-blog-post:hover img {
   transform: scale(1.23) rotate(10deg);
 }
 
-/* line 417, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .tags .tag_btn {
   font-size: 12px;
   font-weight: 500;
@@ -4557,20 +3936,16 @@ h6 {
   text-align: center;
 }
 
-/* line 431, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
-.tags .tag_btn + .tag_btn {
+.tags .tag_btn+.tag_btn {
   margin-left: 2px;
 }
 
-/*========= blog_categorie_area css ===========*/
-/* line 438, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_categorie_area {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 @media (min-width: 900px) {
-  /* line 438, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .blog_categorie_area {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -4578,26 +3953,22 @@ h6 {
 }
 
 @media (min-width: 1100px) {
-  /* line 438, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .blog_categorie_area {
     padding-top: 120px;
     padding-bottom: 120px;
   }
 }
 
-/* line 454, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .categories_post {
   position: relative;
   text-align: center;
   cursor: pointer;
 }
 
-/* line 459, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .categories_post img {
   max-width: 100%;
 }
 
-/* line 463, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .categories_post .categories_details {
   position: absolute;
   top: 20px;
@@ -4612,7 +3983,6 @@ h6 {
   justify-content: center;
 }
 
-/* line 476, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .categories_post .categories_details h5 {
   margin-bottom: 0px;
   font-size: 18px;
@@ -4622,7 +3992,6 @@ h6 {
   position: relative;
 }
 
-/* line 494, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .categories_post .categories_details p {
   font-weight: 300;
   font-size: 14px;
@@ -4630,7 +3999,6 @@ h6 {
   margin-bottom: 0px;
 }
 
-/* line 501, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .categories_post .categories_details .border_line {
   margin: 10px 0px;
   background: #fff;
@@ -4638,46 +4006,37 @@ h6 {
   height: 1px;
 }
 
-/* line 510, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .categories_post:hover .categories_details {
   background: rgba(222, 99, 32, 0.85);
 }
 
-/*============ blog_left_sidebar css ==============*/
-/* line 525, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_item {
   margin-bottom: 50px;
 }
 
-/* line 529, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_details {
   padding: 30px 0 20px 10px;
   box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
 }
 
 @media (min-width: 768px) {
-  /* line 529, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .blog_details {
     padding: 60px 30px 35px 35px;
   }
 }
 
-/* line 537, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_details p {
   margin-bottom: 30px;
 }
 
-/* line 541, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_details a {
   color: #ff8b23;
 }
 
-/* line 544, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_details a:hover {
   color: #0181F5;
 }
 
-/* line 549, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_details h2 {
   font-size: 18px;
   font-weight: 600;
@@ -4685,44 +4044,37 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  /* line 549, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .blog_details h2 {
     font-size: 24px;
     margin-bottom: 15px;
   }
 }
 
-/* line 563, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog-info-link li {
   float: left;
   font-size: 14px;
 }
 
-/* line 567, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog-info-link li a {
   color: #999999;
 }
 
-/* line 571, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog-info-link li i,
 .blog-info-link li span {
   font-size: 13px;
   margin-right: 5px;
 }
 
-/* line 577, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog-info-link li::after {
   content: "|";
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 583, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog-info-link li:last-child::after {
   display: none;
 }
 
-/* line 588, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog-info-link::after {
   content: "";
   display: block;
@@ -4730,12 +4082,10 @@ h6 {
   display: table;
 }
 
-/* line 596, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_item_img {
   position: relative;
 }
 
-/* line 599, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_item_img .blog_item_date {
   position: absolute;
   bottom: -10px;
@@ -4748,7 +4098,6 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  /* line 599, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .blog_item_img .blog_item_date {
     bottom: -20px;
     left: 40px;
@@ -4756,7 +4105,6 @@ h6 {
   }
 }
 
-/* line 615, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_item_img .blog_item_date h3 {
   font-size: 22px;
   font-weight: 600;
@@ -4766,13 +4114,11 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  /* line 615, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .blog_item_img .blog_item_date h3 {
     font-size: 30px;
   }
 }
 
-/* line 627, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_item_img .blog_item_date p {
   font-size: 18px;
   margin-bottom: 0;
@@ -4780,19 +4126,16 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  /* line 627, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .blog_item_img .blog_item_date p {
     font-size: 18px;
   }
 }
 
-/* line 647, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .widget_title {
   font-size: 20px;
   margin-bottom: 40px;
 }
 
-/* line 652, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .widget_title::after {
   content: "";
   display: block;
@@ -4800,19 +4143,16 @@ h6 {
   border-bottom: 1px solid #f0e9ff;
 }
 
-/* line 660, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .single_sidebar_widget {
   background: #fbf9ff;
   padding: 30px;
   margin-bottom: 30px;
 }
 
-/* line 664, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .single_sidebar_widget .btn_1 {
   margin-top: 0px;
 }
 
-/* line 672, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .search_widget .form-control {
   height: 50px;
   border-color: #f0e9ff;
@@ -4823,19 +4163,16 @@ h6 {
   border-right: 0;
 }
 
-/* line 681, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .search_widget .form-control::placeholder {
   color: #999999;
 }
 
-/* line 685, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .search_widget .form-control:focus {
   border-color: #f0e9ff;
   outline: 0;
   box-shadow: none;
 }
 
-/* line 694, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .search_widget .input-group button {
   background: #fff;
   border-left: 0;
@@ -4844,14 +4181,12 @@ h6 {
   border-left: 0;
 }
 
-/* line 701, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .search_widget .input-group button i,
 .blog_right_sidebar .search_widget .input-group button span {
   font-size: 14px;
   color: #999999;
 }
 
-/* line 713, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .newsletter_widget .form-control {
   height: 50px;
   border-color: #f0e9ff;
@@ -4861,19 +4196,16 @@ h6 {
   border-radius: 0;
 }
 
-/* line 722, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .newsletter_widget .form-control::placeholder {
   color: #999999;
 }
 
-/* line 726, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .newsletter_widget .form-control:focus {
   border-color: #f0e9ff;
   outline: 0;
   box-shadow: none;
 }
 
-/* line 735, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .newsletter_widget .input-group button {
   background: #fff;
   border-left: 0;
@@ -4882,50 +4214,42 @@ h6 {
   border-left: 0;
 }
 
-/* line 742, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .newsletter_widget .input-group button i,
 .blog_right_sidebar .newsletter_widget .input-group button span {
   font-size: 14px;
   color: #999999;
 }
 
-/* line 755, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .post_category_widget .cat-list li {
   border-bottom: 1px solid #f0e9ff;
   transition: all 0.3s ease 0s;
   padding-bottom: 12px;
 }
 
-/* line 760, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .post_category_widget .cat-list li:last-child {
   border-bottom: 0;
 }
 
-/* line 764, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .post_category_widget .cat-list li a {
   font-size: 14px;
   line-height: 20px;
   color: #888888;
 }
 
-/* line 769, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .post_category_widget .cat-list li a p {
   margin-bottom: 0px;
 }
 
-/* line 774, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
-.blog_right_sidebar .post_category_widget .cat-list li + li {
+.blog_right_sidebar .post_category_widget .cat-list li+li {
   padding-top: 15px;
 }
 
-/* line 791, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .popular_post_widget .post_item .media-body {
   justify-content: center;
   align-self: center;
   padding-left: 20px;
 }
 
-/* line 796, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
   font-size: 16px;
   line-height: 20px;
@@ -4933,29 +4257,24 @@ h6 {
   transition: all 0.3s linear;
 }
 
-/* line 807, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .popular_post_widget .post_item .media-body a:hover {
   color: #fff;
 }
 
-/* line 813, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .popular_post_widget .post_item .media-body p {
   font-size: 14px;
   line-height: 21px;
   margin-bottom: 0px;
 }
 
-/* line 820, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
-.blog_right_sidebar .popular_post_widget .post_item + .post_item {
+.blog_right_sidebar .popular_post_widget .post_item+.post_item {
   margin-top: 20px;
 }
 
-/* line 828, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li {
   display: inline-block;
 }
 
-/* line 831, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a {
   display: inline-block;
   border: 1px solid #eeeeee;
@@ -4968,7 +4287,6 @@ h6 {
   font-size: 13px;
 }
 
-/* line 842, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
   background: #0181F5;
   color: #fff !important;
@@ -4978,14 +4296,12 @@ h6 {
   transition: 0.5s;
 }
 
-/* line 857, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .instagram_feeds .instagram_row {
   display: flex;
   margin-right: -6px;
   margin-left: -6px;
 }
 
-/* line 863, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .instagram_feeds .instagram_row li {
   width: 33.33%;
   float: left;
@@ -4994,7 +4310,6 @@ h6 {
   margin-bottom: 15px;
 }
 
-/* line 963, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog_right_sidebar .br {
   width: 100%;
   height: 1px;
@@ -5002,12 +4317,10 @@ h6 {
   margin: 30px 0px;
 }
 
-/* line 984, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog-pagination {
   margin-top: 80px;
 }
 
-/* line 988, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog-pagination .page-link {
   font-size: 14px;
   position: relative;
@@ -5024,43 +4337,35 @@ h6 {
   margin-right: 10px;
 }
 
-/* line 1005, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog-pagination .page-link i,
 .blog-pagination .page-link span {
   font-size: 13px;
 }
 
-/* line 1017, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog-pagination .page-item.active .page-link {
   background-color: #fbf9ff;
   border-color: #f0e9ff;
   color: #888888;
 }
 
-/* line 1024, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .blog-pagination .page-item:last-child .page-link {
   margin-right: 0;
 }
 
-/*============ Start Blog Single Styles  =============*/
-/* line 1049, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .blog_details {
   box-shadow: none;
   padding: 0;
 }
 
-/* line 1054, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .social-links {
   padding-top: 10px;
 }
 
-/* line 1057, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .social-links li {
   display: inline-block;
   margin-bottom: 10px;
 }
 
-/* line 1061, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .social-links li a {
   color: #cccccc;
   padding: 7px;
@@ -5068,18 +4373,15 @@ h6 {
   transition: all 0.2s linear;
 }
 
-/* line 1074, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .blog_details {
   padding-top: 26px;
 }
 
-/* line 1077, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .blog_details p {
   margin-bottom: 20px;
   font-size: 15px;
 }
 
-/* line 1087, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .quote-wrapper {
   background: rgba(130, 139, 178, 0.1);
   padding: 15px;
@@ -5091,13 +4393,11 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  /* line 1087, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .single-post-area .quote-wrapper {
     padding: 30px;
   }
 }
 
-/* line 1101, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .quotes {
   background: #fff;
   padding: 15px 15px 15px 20px;
@@ -5105,82 +4405,68 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  /* line 1101, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .single-post-area .quotes {
     padding: 25px 25px 25px 30px;
   }
 }
 
-/* line 1111, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .arrow {
   position: absolute;
 }
 
-/* line 1114, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .arrow .lnr {
   font-size: 20px;
   font-weight: 600;
 }
 
-/* line 1121, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .thumb .overlay-bg {
   background: rgba(0, 0, 0, 0.8);
 }
 
-/* line 1126, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-top {
   padding-top: 15px;
   border-top: 1px solid #f0e9ff;
 }
 
-/* line 1130, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-top p {
   margin-bottom: 0;
 }
 
-/* line 1134, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-top .like-info {
   font-size: 14px;
 }
 
-/* line 1137, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-top .like-info i,
 .single-post-area .navigation-top .like-info span {
   font-size: 16px;
   margin-right: 5px;
 }
 
-/* line 1144, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-top .comment-count {
   font-size: 14px;
 }
 
-/* line 1147, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-top .comment-count i,
 .single-post-area .navigation-top .comment-count span {
   font-size: 16px;
   margin-right: 5px;
 }
 
-/* line 1156, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-top .social-icons li {
   display: inline-block;
   margin-right: 15px;
 }
 
-/* line 1160, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-top .social-icons li:last-child {
   margin: 0;
 }
 
-/* line 1164, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-top .social-icons li i,
 .single-post-area .navigation-top .social-icons li span {
   font-size: 14px;
   color: #999999;
 }
 
-/* line 1182, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .blog-author {
   padding: 40px 30px;
   background: #fbf9ff;
@@ -5188,13 +4474,11 @@ h6 {
 }
 
 @media (max-width: 600px) {
-  /* line 1182, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .single-post-area .blog-author {
     padding: 20px 8px;
   }
 }
 
-/* line 1191, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .blog-author img {
   width: 90px;
   height: 90px;
@@ -5203,7 +4487,6 @@ h6 {
 }
 
 @media (max-width: 600px) {
-  /* line 1191, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .single-post-area .blog-author img {
     margin-right: 15px;
     width: 45px;
@@ -5211,63 +4494,52 @@ h6 {
   }
 }
 
-/* line 1204, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .blog-author a {
   display: inline-block;
 }
 
-/* line 1208, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
   color: #0181F5;
 }
 
-/* line 1213, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .blog-author p {
   margin-bottom: 0;
   font-size: 15px;
 }
 
-/* line 1218, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .blog-author h4 {
   font-size: 16px;
 }
 
-/* line 1225, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area {
   border-bottom: 1px solid #eee;
   padding-bottom: 30px;
   margin-top: 55px;
 }
 
-/* line 1230, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area p {
   margin-bottom: 0px;
 }
 
-/* line 1234, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area h4 {
   font-size: 18px;
   line-height: 25px;
 }
 
-/* line 1240, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left {
   text-align: left;
 }
 
-/* line 1243, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left .thumb {
   margin-right: 20px;
   background: #000;
 }
 
-/* line 1247, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left .thumb img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 1252, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left .lnr {
   margin-left: 20px;
   opacity: 0;
@@ -5275,41 +4547,34 @@ h6 {
   transition: 0.5s;
 }
 
-/* line 1259, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .lnr {
   opacity: 1;
 }
 
-/* line 1264, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
   opacity: .5;
 }
 
 @media (max-width: 767px) {
-  /* line 1240, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .single-post-area .navigation-area .nav-left {
     margin-bottom: 30px;
   }
 }
 
-/* line 1275, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-right {
   text-align: right;
 }
 
-/* line 1278, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-right .thumb {
   margin-left: 20px;
   background: #000;
 }
 
-/* line 1282, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-right .thumb img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 1287, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-right .lnr {
   margin-right: 20px;
   opacity: 0;
@@ -5317,24 +4582,20 @@ h6 {
   transition: 0.5s;
 }
 
-/* line 1294, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .lnr {
   opacity: 1;
 }
 
-/* line 1299, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
   opacity: .5;
 }
 
 @media (max-width: 991px) {
-  /* line 1307, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .single-post-area .sidebar-widgets {
     padding-bottom: 0px;
   }
 }
 
-/* line 1314, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comments-area {
   background: transparent;
   border-top: 1px solid #eee;
@@ -5343,66 +4604,56 @@ h6 {
 }
 
 @media (max-width: 414px) {
-  /* line 1314, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .comments-area {
     padding: 50px 8px;
   }
 }
 
-/* line 1325, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comments-area h4 {
   margin-bottom: 35px;
   font-size: 18px;
 }
 
-/* line 1332, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comments-area h5 {
   font-size: 16px;
   margin-bottom: 0px;
 }
 
-/* line 1341, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comments-area .comment-list {
   padding-bottom: 48px;
 }
 
-/* line 1344, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comments-area .comment-list:last-child {
   padding-bottom: 0px;
 }
 
-/* line 1348, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comments-area .comment-list.left-padding {
   padding-left: 25px;
 }
 
 @media (max-width: 413px) {
-  /* line 1354, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .comments-area .comment-list .single-comment h5 {
     font-size: 12px;
   }
-  /* line 1358, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
+
   .comments-area .comment-list .single-comment .date {
     font-size: 11px;
   }
-  /* line 1362, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
+
   .comments-area .comment-list .single-comment .comment {
     font-size: 10px;
   }
 }
 
-/* line 1369, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comments-area .thumb {
   margin-right: 20px;
 }
 
-/* line 1372, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comments-area .thumb img {
   width: 70px;
   border-radius: 50%;
 }
 
-/* line 1378, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comments-area .date {
   font-size: 14px;
   color: #999999;
@@ -5410,14 +4661,12 @@ h6 {
   margin-left: 20px;
 }
 
-/* line 1385, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comments-area .comment {
   margin-bottom: 10px;
   color: #777777;
   font-size: 15px;
 }
 
-/* line 1391, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comments-area .btn-reply {
   background-color: transparent;
   color: #888888;
@@ -5427,7 +4676,6 @@ h6 {
   font-weight: 400;
 }
 
-/* line 1408, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form {
   border-top: 1px solid #eee;
   padding-top: 45px;
@@ -5435,44 +4683,37 @@ h6 {
   margin-bottom: 20px;
 }
 
-/* line 1416, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form .form-group {
   margin-bottom: 30px;
 }
 
-/* line 1420, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form h4 {
   margin-bottom: 40px;
   font-size: 18px;
   line-height: 22px;
 }
 
-/* line 1428, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form .name {
   padding-left: 0px;
 }
 
 @media (max-width: 767px) {
-  /* line 1428, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .comment-form .name {
     padding-right: 0px;
     margin-bottom: 1rem;
   }
 }
 
-/* line 1437, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form .email {
   padding-right: 0px;
 }
 
 @media (max-width: 991px) {
-  /* line 1437, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
   .comment-form .email {
     padding-left: 0px;
   }
 }
 
-/* line 1445, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form .form-control {
   border: 1px solid #f0e9ff;
   border-radius: 5px;
@@ -5482,67 +4723,51 @@ h6 {
   background: transparent;
 }
 
-/* line 1453, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form .form-control:focus {
   outline: 0;
   box-shadow: none;
 }
 
-/* line 1458, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form .form-control::placeholder {
   font-weight: 300;
   color: #999999;
 }
 
-/* line 1463, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form .form-control::placeholder {
   color: #777777;
 }
 
-/* line 1468, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form textarea {
   padding-top: 18px;
   border-radius: 12px;
   height: 100% !important;
 }
 
-/* line 1474, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   font-size: 13px;
   color: #777;
 }
 
-/* line 1480, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form ::-moz-placeholder {
-  /* Firefox 19+ */
   font-size: 13px;
   color: #777;
 }
 
-/* line 1486, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form :-ms-input-placeholder {
-  /* IE 10+ */
   font-size: 13px;
   color: #777;
 }
 
-/* line 1492, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .comment-form :-moz-placeholder {
-  /* Firefox 18- */
   font-size: 13px;
   color: #777;
 }
 
-/*============ End Blog Single Styles  =============*/
-/**************** blog part css start ****************/
-/* line 2, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part {
   margin-bottom: 140px;
 }
 
 @media (max-width: 576px) {
-  /* line 2, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part {
     margin-bottom: 0px;
     padding: 0px 0px 70px;
@@ -5550,7 +4775,6 @@ h6 {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 2, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part {
     margin-bottom: 0px;
     padding: 0px 0px 70px;
@@ -5558,14 +4782,12 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 2, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part {
     margin-bottom: 0px;
     padding: 0px 0px 70px;
   }
 }
 
-/* line 19, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .blog_right_sidebar .widget_title {
   font-size: 20px;
   margin-bottom: 40px;
@@ -5573,7 +4795,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog {
     margin-bottom: 140px;
     margin-top: 20px;
@@ -5581,7 +4802,6 @@ h6 {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog {
     margin-bottom: 140px;
     margin-top: 20px;
@@ -5589,19 +4809,16 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog {
     margin-bottom: 140px;
     margin-top: 20px;
   }
 }
 
-/* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card-img-top {
   border-radius: 0px;
 }
 
-/* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card {
   border: 0px solid transparent;
   border-radius: 0px;
@@ -5609,7 +4826,6 @@ h6 {
   position: relative;
 }
 
-/* line 48, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body {
   padding: 25px 10px 29px 40px;
   background-color: #fff;
@@ -5621,7 +4837,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 48, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card .card-body {
     padding: 15px;
     left: 10px;
@@ -5630,7 +4845,6 @@ h6 {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 48, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card .card-body {
     padding: 15px;
     left: 10px;
@@ -5639,13 +4853,11 @@ h6 {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 48, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card .card-body {
     padding: 20px;
   }
 }
 
-/* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
   color: #0181F5;
   text-transform: uppercase;
@@ -5653,20 +4865,17 @@ h6 {
   transition: 0.8s;
 }
 
-/* line 76, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a:hover {
   background: -webkit-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 83, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .dot {
   position: relative;
   padding-left: 20px;
 }
 
-/* line 86, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .dot:after {
   position: absolute;
   content: "";
@@ -5678,7 +4887,6 @@ h6 {
   border-radius: 50%;
 }
 
-/* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card span {
   color: #8a8a8a;
   margin-bottom: 10px;
@@ -5687,7 +4895,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -5695,7 +4902,6 @@ h6 {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -5703,7 +4909,6 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -5711,14 +4916,12 @@ h6 {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
     margin-top: 5px;
   }
 }
 
-/* line 119, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card h5 {
   font-weight: 600;
   line-height: 1.5;
@@ -5730,14 +4933,12 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 119, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 119, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
     font-size: 16px;
@@ -5745,21 +4946,18 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 119, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 119, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
     font-size: 18px;
   }
 }
 
-/* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card h5:hover {
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -5769,7 +4967,6 @@ h6 {
   -webkit-animation: 1s;
 }
 
-/* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card ul li {
   display: inline-block;
   color: #8a8a8a;
@@ -5777,37 +4974,30 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
   }
 }
 
-/* line 166, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card ul li span {
   margin-right: 10px;
   font-size: 12px;
 }
-
-/*# sourceMappingURL=style.css.map */
