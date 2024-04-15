@@ -12,7 +12,7 @@
   justify-content: start;
 }
 
-.speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
+.category_area .single_category .category_thumb .hover_overlay .social_icon a:hover {
   background: #ff9600;
   background: -moz-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
   background: -webkit-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
@@ -98,10 +98,6 @@ h6 a {
 ul {
   margin: 0px;
   padding: 0px;
-}
-
-li {
-  list-style: none;
 }
 
 p {
@@ -566,7 +562,7 @@ h3 {
   content: "";
   width: 128px;
   height: 4px;
-  background-image: url(../img/speakers/line.png);
+  background-image: url(../img/category/line.png);
   top: 50%;
   margin-bottom: 2px;
   right: -158px;
@@ -1103,7 +1099,7 @@ h3 {
   padding-right: 10px;
 }
 
-.slider_area .countDOwn_area {
+.slider_area .countDown_area {
   padding-top: 60px;
 }
 
@@ -1189,54 +1185,54 @@ h3 {
   }
 }
 
-.about_area {
+.mucdich {
   padding-top: 200px;
   padding-bottom: 100px;
   position: relative;
 }
 
-.about_area .shape-1 {
+.mucdich .shape-1 {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.about_area .shape-2 {
+.mucdich .shape-2 {
   position: absolute;
   bottom: 15%;
   right: 0;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .about_area .shape-2 {
+  .mucdich .shape-2 {
     bottom: 3%;
   }
 }
 
 @media (max-width: 767px) {
-  .about_area {
+  .mucdich {
     padding-top: 40px;
     padding-bottom: 30px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .about_area {
+  .mucdich {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
-.about_area .about_thumb {
+.mucdich .about_thumb {
   position: relative;
   z-index: 2;
 }
 
-.about_area .about_thumb img {
+.mucdich .about_thumb img {
   width: 100%;
 }
 
-.about_area .about_thumb .exprience {
+.mucdich .about_thumb .exprience {
   position: absolute;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -1249,7 +1245,7 @@ h3 {
   left: 50%;
 }
 
-.about_area .about_thumb .exprience h1 {
+.mucdich .about_thumb .exprience h1 {
   color: #131313;
   font-weight: 700;
   font-size: 80px;
@@ -1257,12 +1253,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  .about_area .about_thumb .exprience h1 {
+  .mucdich .about_thumb .exprience h1 {
     font-size: 30px;
   }
 }
 
-.about_area .about_thumb .exprience span {
+.mucdich .about_thumb .exprience span {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -1271,17 +1267,17 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  .about_area .about_info {
+  .mucdich .about_info {
     margin-top: 30px;
   }
 }
 
-.about_area .about_info .about_list {
+.mucdich .about_info .about_list {
   margin-bottom: 50px;
   margin-top: 34px;
 }
 
-.about_area .about_info .about_list li {
+.mucdich .about_info .about_list li {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -1292,12 +1288,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  .about_area .about_info .about_list li {
+  .mucdich .about_info .about_list li {
     font-size: 14px;
   }
 }
 
-.about_area .about_info .about_list li::before {
+.mucdich .about_info .about_list li::before {
   content: "";
   background: #02c856;
   width: 15px;
@@ -1310,22 +1306,20 @@ h3 {
   transform: translateY(-50%);
 }
 
-.about_area .about_info p {
+.mucdich .about_info ol {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   color: #808080;
-  margin-top: 30px;
-  margin-bottom: 60px;
 }
 
 @media (max-width: 767px) {
-  .about_area .about_info p {
+  .mucdich .about_info p {
     margin-bottom: 30px;
   }
 }
 
-.about_area .about_info a {
+.mucdich .about_info a {
   text-align: center;
 }
 
@@ -1442,38 +1436,38 @@ h3 {
   top: -2px;
 }
 
-.speakers_area {
+.category_area {
   padding-top: 100px;
   position: relative;
   padding-bottom: 105px;
 }
 
-.speakers_area.inc_padd {
+.category_area.inc_padd {
   padding-top: 200px;
 }
 
 @media (max-width: 767px) {
-  .speakers_area.inc_padd {
+  .category_area.inc_padd {
     padding-bottom: 0px;
     padding-top: 50px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .speakers_area.inc_padd {
+  .category_area.inc_padd {
     padding-bottom: 100px;
     padding-top: 70px;
   }
 }
 
 @media (max-width: 767px) {
-  .speakers_area {
+  .category_area {
     padding-bottom: 0px;
     padding-top: 50px;
   }
 }
 
-.speakers_area .horizontal_text {
+.category_area .horizontal_text {
   font-size: 120px;
   font-weight: 700;
   position: absolute;
@@ -1483,26 +1477,26 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .speakers_area .horizontal_text {
+  .category_area .horizontal_text {
     font-size: 90px;
   }
 }
 
-.speakers_area .single_speaker {
+.category_area .single_category {
   margin-bottom: 90px;
   overflow: hidden;
 }
 
-.speakers_area .single_speaker .speaker_thumb {
+.category_area .single_category .category_thumb {
   position: relative;
   overflow: hidden;
 }
 
-.speakers_area .single_speaker .speaker_thumb img {
+.category_area .single_category .category_thumb img {
   width: 100%;
 }
 
-.speakers_area .single_speaker .speaker_thumb .hover_overlay {
+.category_area .single_category .category_thumb .hover_overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1520,7 +1514,7 @@ h3 {
   opacity: 0;
 }
 
-.speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon {
+.category_area .single_category .category_thumb .hover_overlay .social_icon {
   position: absolute;
   left: 0;
   right: 0;
@@ -1532,7 +1526,7 @@ h3 {
   transition: 0.5s;
 }
 
-.speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a {
+.category_area .single_category .category_thumb .hover_overlay .social_icon a {
   width: 50px;
   height: 50px;
   -webkit-transition: 0.3s;
@@ -1550,25 +1544,23 @@ h3 {
   margin: 0 7px;
 }
 
-.speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
+.category_area .single_category .category_thumb .hover_overlay .social_icon a:hover {
   color: #fff;
 }
 
-.speakers_area .single_speaker .speaker_name h3 {
+.category_area .single_category .category_name h3 {
   font-size: 26px;
   font-weight: 600;
-  margin-top: 40px;
   margin-bottom: 7px;
 }
 
-.speakers_area .single_speaker .speaker_name p {
-  margin-bottom: 0;
-  font-size: 16px;
+.category_area .single_category .category_name h4 {
+  margin-top: 20px;
   color: #FF0000;
   font-weight: 400;
 }
 
-.speakers_area .single_speaker:hover .hover_overlay {
+.category_area .single_category:hover .hover_overlay {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -1576,7 +1568,7 @@ h3 {
   opacity: 1;
 }
 
-.speakers_area .single_speaker:hover .speaker_thumb .social_icon {
+.category_area .single_category:hover .category_thumb .social_icon {
   -webkit-transform: scaleX(1);
   -moz-transform: scaleX(1);
   -ms-transform: scaleX(1);
@@ -1881,55 +1873,55 @@ h3 {
   }
 }
 
-.event_area .single_speaker {
+.event_area .single_category {
   margin-bottom: 63px;
 }
 
 @media (max-width: 767px) {
-  .event_area .single_speaker {
+  .event_area .single_category {
     margin-bottom: 30px;
   }
 }
 
-.event_area .single_speaker img {
+.event_area .single_category img {
   float: left;
 }
 
 @media (max-width: 767px) {
-  .event_area .single_speaker img {
+  .event_area .single_category img {
     float: none;
   }
 }
 
-.event_area .single_speaker .speaker-name {
+.event_area .single_category .category-name {
   padding-left: 30px;
   overflow: hidden;
 }
 
 @media (max-width: 767px) {
-  .event_area .single_speaker .speaker-name {
+  .event_area .single_category .category-name {
     padding-left: 0;
     margin-top: 20px;
   }
 }
 
-.event_area .single_speaker .speaker-name .heading {
+.event_area .single_category .category-name .heading {
   margin-bottom: 5px;
 }
 
-.event_area .single_speaker .speaker-name .heading span {
+.event_area .single_category .category-name .heading span {
   font-size: 26px;
   color: #1F1F1F;
   font-weight: 500;
 }
 
-.event_area .single_speaker .speaker-name .heading .time {
+.event_area .single_category .category-name .heading .time {
   font-size: 16px;
   font-weight: 500;
   color: #1F1F1F;
 }
 
-.event_area .single_speaker p {
+.event_area .single_category p {
   color: #707070;
   font-size: 16px;
   line-height: 28px;
