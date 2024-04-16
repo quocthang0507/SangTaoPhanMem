@@ -93,7 +93,7 @@
 
     // count_dwon
     $('#clock').countdown('2024/11/20', function (event) {
-      $(this).html(event.strftime('<div class="single_countdown"><h3>%D</h3><span>ngày</span></div><div class="single_countdown"><h3>%H</h3><span>Giờ</span></div><div class="single_countdown"><h3>%M</h3><span>Phút</span></div><div class="single_countdown"><h3>%S</h3><span>Giây</span></div>'));
+      $(this).html(event.strftime('<div class="single_countdown"><h3>%D</h3><span>ngày</span></div><div class="single_countdown"><h3>%H :</h3><span>Giờ</span></div><div class="single_countdown"><h3>%M :</h3><span>Phút</span></div><div class="single_countdown"><h3>%S</h3><span>Giây</span></div>'));
     });
 
     // for filter

@@ -530,7 +530,7 @@ h3 {
   }
 }
 
-.serction_title_large h3 {
+.section_title_large h3 {
   font-size: 80px;
   font-weight: 700;
   color: #1F1F1F;
@@ -539,24 +539,24 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  .serction_title_large h3 {
+  .section_title_large h3 {
     font-size: 35px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .serction_title_large h3 {
+  .section_title_large h3 {
     font-size: 45px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .serction_title_large h3 {
+  .section_title_large h3 {
     font-size: 60px;
   }
 }
 
-.serction_title_large h3::before {
+.section_title_large h3::before {
   position: absolute;
   right: 0;
   content: "";
@@ -569,7 +569,7 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  .serction_title_large h3::before {
+  .section_title_large h3::before {
     width: 80px;
     right: -100px;
     display: none;
@@ -599,6 +599,10 @@ h3 {
   right: 0;
   margin: auto;
   top: 10px;
+}
+
+.slicknav_menu .slicknav_nav a {
+  color: #131313;
 }
 
 .slicknav_menu .slicknav_nav a:hover {
@@ -647,6 +651,7 @@ h3 {
 @media (max-width: 767px) {
   .slicknav_menu {
     margin-right: 12px;
+    background: none;
   }
 }
 
@@ -1148,7 +1153,7 @@ h3 {
 
 .slider_area .countdown_time .single_countdown h3 {
   color: #fff;
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 600;
 }
 
@@ -1186,8 +1191,8 @@ h3 {
 }
 
 .mucdich {
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
 }
 
@@ -1437,9 +1442,9 @@ h3 {
 }
 
 .category_area {
-  padding-top: 100px;
+  padding-top: 50px;
   position: relative;
-  padding-bottom: 105px;
+  padding-bottom: 55px;
 }
 
 .category_area.inc_padd {
@@ -1777,7 +1782,7 @@ h3 {
 
 .event_area {
   position: relative;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 767px) {
@@ -1805,7 +1810,7 @@ h3 {
 .event_area .vr_text {
   font-size: 120px;
   font-weight: 700;
-  color: #F3F3F3;
+  color: #FFAAA5;
   writing-mode: vertical-lr;
   position: absolute;
   left: 17%;
@@ -4992,4 +4997,48 @@ h6 {
 .blog_part .single-home-blog .card ul li span {
   margin-right: 10px;
   font-size: 12px;
+}
+
+.colorful-text {
+  --bg-size: 400%;
+  --color-one: hsl(340 85% 55%);
+  --color-two: hsl(45 100% 50%);
+  --color-three: hsl(195 95% 55%);
+  --color-four: hsl(270 55% 50%);
+  --color-five: hsl(340 85% 55%);
+  --color-six: hsl(245 60% 50%);
+  background: linear-gradient(90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-three),
+      var(--color-four),
+      var(--color-five),
+      var(--color-six),
+      var(--color-one)) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: move-bg 16s infinite linear;
+}
+
+@keyframes move-bg {
+  to {
+    background-position: var(--bg-size) 0;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .boujee-text {
+    animation: move-bg 16s linear infinite;
+  }
+
+  @keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
+}
+
+.bordered-text {
+  -webkit-text-stroke: 1px #7635ba;
 }
