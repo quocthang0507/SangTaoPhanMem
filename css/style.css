@@ -367,8 +367,7 @@ h3 {
 }
 
 .boxed-btn-red {
-  background: #fff;
-  color: #FF0000;
+  color: #ff0000;
   display: inline-block;
   padding: 16px 44px;
   font-family: "Open Sans", sans-serif;
@@ -377,7 +376,6 @@ h3 {
   border: 0;
   border: 2px solid #FF0000;
   text-align: center;
-  color: #FF0000 !important;
   text-transform: capitalize;
 }
 
@@ -590,7 +588,6 @@ h3 {
   float: right;
   margin-top: 0;
   padding: 0;
-  width: 95%;
   padding: 0;
   border-radius: 0px;
   margin-top: 5px;
@@ -603,6 +600,7 @@ h3 {
 
 .slicknav_menu .slicknav_nav a {
   color: #131313;
+  margin: 10px;
 }
 
 .slicknav_menu .slicknav_nav a:hover {
@@ -612,6 +610,8 @@ h3 {
 
 .slicknav_menu .slicknav_nav a.active {
   color: #0181F5;
+  margin: 10px;
+  font-weight: 700;
 }
 
 @media (max-width: 767px) {
@@ -678,7 +678,7 @@ h3 {
 }
 
 .slicknav_icon-bar {
-  background: #fff !important;
+  background: #000 !important;
 }
 
 .header-area {
@@ -751,9 +751,7 @@ h3 {
 }
 
 .header-area .main-header-area .main-menu ul li a {
-  /* color: #fff; */
   font-size: 16px;
-  font-weight: 600;
   display: inline-block;
   padding: 35px 23px 35px 23px;
   font-family: "Open Sans", sans-serif;
@@ -795,6 +793,7 @@ h3 {
 
 .header-area .main-header-area .main-menu ul li a.active {
   color: #0181F5;
+  font-weight: 700;
 }
 
 .header-area .main-header-area .main-menu ul li .submenu {
@@ -2039,6 +2038,10 @@ h3 {
 
 .footer .footer_top .footer_widget p.footer_text.doanar a.first {
   margin-bottom: 10px;
+}
+
+.footer .footer_top .footer_widget ul li {
+  color: #fff;
 }
 
 .footer .footer_top .footer_widget ul li a {
