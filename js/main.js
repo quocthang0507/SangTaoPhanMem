@@ -280,8 +280,6 @@
   }
   mailChimp();
 
-
-
   // Search Toggle
   $("#search_input_box").hide();
   $("#search").on("click", function () {
@@ -298,4 +296,55 @@
     $("#search_input").focus();
   });
 
-})(jQuery);	
+  let top_btn = $('#btn-back-to-top'), section = $('section'), sections = {}, i = 0;
+
+  Array.prototype.forEach.call(section, function (e) {
+    sections[e.id] = e.offsetTop;
+  });
+
+  setActiveMenu();
+  window.addEventListener('hashchange', setActiveMenu);
+
+  window.onscroll = function () {
+    /* Su kien dung de len dau trang */
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      top_btn.css('display', 'block');
+    } else {
+      top_btn.css('display', 'none');
+    }
+    /* Su kien dung de danh dau menu khi cuon trang */
+    // Neu o cuoi trang
+    if (window.scrollY === 0) {
+      removeActive();
+    }
+    else {
+      let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+      for (let className in sections) {
+        // Neu o cac menu dau tien
+        if (sections[className] <= scrollPosition + 150) {
+          removeActive();
+          document.getElementsByClassName(className)[0].className += " active";
+        }
+      }
+    }
+  };
+})(jQuery);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+function setActiveMenu() {
+  if (window.location.hash) {
+    removeActive();
+    let selected = window.location.hash.replace('#', '');
+    document.getElementsByClassName(selected)[0].className += " active";
+  }
+}
+
+function removeActive() {
+  let current = document.getElementsByClassName("active");
+  if (current.length > 0)
+    current[0].className = current[0].className.replace(" active", "");
+}
