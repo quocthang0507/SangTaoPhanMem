@@ -99,10 +99,10 @@ h6 a {
   color: inherit;
 }
 
-ul {
+/* ul {
   margin: 0px;
   padding: 0px;
-}
+} */
 
 p {
   font-size: 14px;
@@ -755,7 +755,7 @@ h3 {
 
 .header-area .main-header-area .main-menu ul li a {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   display: inline-block;
   padding: 35px 23px 35px 23px;
   font-family: "Open Sans", sans-serif;
@@ -912,7 +912,7 @@ h3 {
 }
 
 .slider_bg_1 {
-  background-image: url(../img/banner/banner_1.png);
+  background-image: url(../img/banner/banner_3.jpg);
 }
 
 .slider_area {
@@ -1172,7 +1172,7 @@ h3 {
   text-transform: capitalize;
 }
 
-.opcity_text {
+.opacity_text {
   position: absolute;
   right: 0;
   writing-mode: vertical-lr;
@@ -1182,13 +1182,13 @@ h3 {
   transform: rotate(180deg);
   font-size: 120px;
   top: -125px;
-  color: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.2);
   font-weight: 700;
   right: -87px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .opcity_text {
+  .opacity_text {
     font-size: 90px;
   }
 }
@@ -1510,7 +1510,7 @@ h3 {
   height: 100%;
   left: 0;
   bottom: 0;
-  background: rgba(255, 0, 0, 0.5);
+  background: rgba(236, 43, 110, 0.75);
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1520,6 +1520,12 @@ h3 {
   -ms-transform: translateY(80%);
   transform: translateY(80%);
   opacity: 0;
+}
+
+.category_area .single_category .category_thumb .hover_overlay .container p,
+.category_area .single_category .category_thumb .hover_overlay .container li {
+  font-size: 1rem;
+  color: white;
 }
 
 .category_area .single_category .category_thumb .hover_overlay .social_icon {
@@ -1583,11 +1589,11 @@ h3 {
   transform: scaleX(1);
 }
 
-.resister_bg_1 {
-  background-image: url(../img/banner/resister.png);
+.register_bg_1 {
+  background-image: url(../img/banner/register.png);
 }
 
-.resister_book {
+.register_book {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1595,12 +1601,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  .resister_book {
+  .register_book {
     padding: 80px 0;
   }
 }
 
-.resister_book .resister_text h3 {
+.register_book .register_text h3 {
   font-size: 46px;
   font-weight: 700;
   line-height: 58px;
@@ -1609,16 +1615,40 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  .resister_book .resister_text h3 {
+  .register_book .register_text h3 {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
 @media (max-width: 767px) {
-  .resister_book .resister_text h3 br {
+  .register_book .register_text h3 br {
     display: none;
   }
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.award .badge {
+  font-size: 1rem;
+  width: 100%;
+  margin: 0;
+}
+
+.award .row {
+  justify-content: center;
+}
+
+.award .row .value {
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  text-wrap: nowrap;
+  color: #dc3545;
 }
 
 .brand_area {
@@ -1813,10 +1843,10 @@ h3 {
 .event_area .vr_text {
   font-size: 120px;
   font-weight: 700;
-  color: #FFAAA5;
+  color: #ffd1cf;
   writing-mode: vertical-lr;
   position: absolute;
-  left: 17%;
+  left: 5%;
   top: 10%;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -1864,9 +1894,16 @@ h3 {
 }
 
 .event_area .date h3 {
-  font-size: 26px;
+  font-size: 1.4rem;
   font-weight: 500;
   color: #FF0000;
+}
+
+.event_area .text h3 {
+  font-size: 26px;
+  font-weight: 700;
+  color: hsl(195 95% 55%);
+  margin-bottom: 63px;
 }
 
 @media (max-width: 767px) {
@@ -1918,7 +1955,7 @@ h3 {
 }
 
 .event_area .single_category .category-name .heading span {
-  font-size: 26px;
+  font-size: 1.4rem;
   color: #1F1F1F;
   font-weight: 500;
 }
