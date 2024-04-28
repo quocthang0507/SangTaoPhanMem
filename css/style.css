@@ -1726,6 +1726,7 @@ h3 {
   font-size: 22px;
   font-weight: 400;
   color: #1F1F1F;
+  text-align: left;
 }
 
 @media (max-width: 767px) {
