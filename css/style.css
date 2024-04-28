@@ -1475,8 +1475,8 @@ h3 {
   font-weight: 700;
   position: absolute;
   right: 0;
-  top: 100px;
   color: #F3F3F3;
+  margin-right: 100px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1588,48 +1588,57 @@ h3 {
   background-image: url(../img/banner/register.png);
 }
 
-.register_book {
+.register {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 184px 0;
+  padding: 100px 0;
+}
+
+.register .container-fluid {
+  max-width: 1920px;
 }
 
 @media (max-width: 767px) {
-  .register_book {
+  .register {
     padding: 80px 0;
   }
 }
 
-.register_book .register_text h3 {
+.register .register_text h3 {
   font-size: 46px;
   font-weight: 700;
   line-height: 58px;
   color: #fff;
-  margin-bottom: 56px;
 }
 
 @media (max-width: 767px) {
-  .register_book .register_text h3 {
+  .register .register_text h3 {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
 @media (max-width: 767px) {
-  .register_book .register_text h3 br {
+  .register .register_text h3 br {
     display: none;
   }
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card .card-title {
+  font-weight: 700;
 }
 
 .award .badge {
   font-size: 1rem;
   width: 100%;
   margin: 0;
+  padding: 10px;
+  text-transform: capitalize;
 }
 
 .award .row {
@@ -1841,7 +1850,6 @@ h3 {
   color: #ffd1cf;
   writing-mode: vertical-lr;
   position: absolute;
-  left: 5%;
   top: 10%;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -1889,7 +1897,7 @@ h3 {
 }
 
 .event_area .date h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 500;
   color: #FF0000;
 }
@@ -1914,7 +1922,7 @@ h3 {
 }
 
 .event_area .single_category {
-  margin-bottom: 63px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 767px) {
@@ -1941,7 +1949,6 @@ h3 {
 @media (max-width: 767px) {
   .event_area .single_category .category-name {
     padding-left: 0;
-    margin-top: 20px;
   }
 }
 
@@ -1950,7 +1957,7 @@ h3 {
 }
 
 .event_area .single_category .category-name .heading span {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #1F1F1F;
   font-weight: 500;
 }
